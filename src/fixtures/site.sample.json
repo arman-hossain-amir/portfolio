@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "name": "Arman Hossain Amir",
+    "role": "Architectural designer and project coordinator. Six years of practice in Dhaka, now designing housing and interiors for New York.",
+    "dims": [["Based", "Queens, New York"], ["Education", "B.Arch 2019 · M.S. Project Management 2026"], ["Available", "January 2027"], ["Projects", "Four selected"]]
+  },
+  "heroImage": { "file": "novo-theatre/novo-hero.jpg", "alt": "Render of the Novo Theatre planetarium across a reflecting pool." },
+  "practice": {
+    "lead": "From drafting in Dhaka to permit sets in New York.",
+    "paragraphs": [
+      "I trained as an architect at North South University in Dhaka and spent six years in practice there, moving from producing construction documents to leading projects and running site supervision.",
+      "I moved to the United States to study project management at Northeastern University, learning the scheduling, budgeting and resource-planning side of the same work.",
+      "I work in AutoCAD, Revit, SketchUp and Rhino, render in Lumion, and schedule in Microsoft Project."
+    ],
+    "cv": [
+      ["2026", "M.S. Project Management", "Northeastern University, Boston — December 2026"],
+      ["2026", "Project Management Coordinator", "Quantum Design & Safety LLC, New York"],
+      ["2023–24", "Architect", "ZED Architecture & Construction, Dhaka"],
+      ["2019", "B.Arch", "North South University, Dhaka"]
+    ]
+  },
+  "drawing": {
+    "title": "Drawing & photography",
+    "where": "Hand work, identity design and travel photographs",
+    "groups": [
+      { "layout": "g2", "sheet": true, "images": [
+        { "file": "drawing/burj-drawing.jpg", "caption": "Burj Khalifa — graphite study", "alt": "Stipple pencil drawing of the Burj Khalifa." },
+        { "file": "drawing/sketch.jpg", "caption": "Perspective sketch — stacked housing", "alt": "Pencil perspective sketch." }
+      ] },
+      { "layout": "full", "sheet": false, "images": [
+        { "file": "drawing/logos.jpg", "caption": "Identity design for eight clients", "alt": "Grid of eight logos." }
+      ] },
+      { "layout": "g3", "sheet": false, "images": [
+        { "file": "drawing/photo-jamamasjid.jpg", "caption": "Jama Masjid, New Delhi — 2017", "alt": "Jama Masjid at dusk." },
+        { "file": "drawing/photo-tajmahal.jpg", "caption": "Taj Mahal, Agra — 2017", "alt": "Taj Mahal." },
+        { "file": "drawing/photo-gulmarg.jpg", "caption": "Gulmarg, Kashmir — 2022", "alt": "Gulmarg valley." }
+      ] }
+    ]
+  },
+  "contact": {
+    "heading": "Available for full-time work from January 2027.",
+    "lines": [
+      ["Email", "zishan.arman@gmail.com", "mailto:zishan.arman@gmail.com"],
+      ["Phone", "+1 (718) 690-4242", "tel:+17186904242"],
+      ["LinkedIn", "linkedin.com/in/architectarman", "https://www.linkedin.com/in/architectarman"],
+      ["Based in", "Queens, New York", null],
+      ["Résumé", "Download PDF", "Arman-Hossain-Amir-Resume.pdf"]
+    ],
+    "colophon": "All projects shown are my own work. Drawings and renders are reproduced with the permission of the offices concerned."
+  }
+}

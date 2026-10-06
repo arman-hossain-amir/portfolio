@@ -1,0 +1,103 @@
+[
+  {
+    "slug": "adu-models",
+    "no": "01",
+    "title": "ADU Models X, Y and Z",
+    "location": "New York City",
+    "year": "2025",
+    "category": "Architecture",
+    "summary": "Three detached accessory dwelling units for New York City's pre-approved plan library.",
+    "body": [
+      "Three detached accessory dwelling units designed for New York City's pre-approved plan library — the programme that lets a homeowner build a backyard unit from a vetted design instead of commissioning a scheme from scratch.",
+      "Model X is a 643 sq ft one-bedroom on a 16 by 40 ft rectangular footprint under a single-pitch roof. Model Y turns the plan into an L. Model Z stacks 776 sq ft over two floors."
+    ],
+    "credit": "Designed and drawn by me. Submitted to the city under a registered design professional of record.",
+    "spec": [["Location", "New York City"], ["Role", "Designer, full drawing set"], ["Size", "643 – 776 sq ft each"], ["Type", "Detached ADU, prefabricated"]],
+    "cover": "adu-x-hero.jpg",
+    "heroCaption": "Model X — entry corner",
+    "groups": [
+      { "layout": "g2", "sheet": false, "images": [
+        { "file": "adu-x-context.jpg", "caption": "Model X in a typical rear yard", "alt": "Render of Model X in a fenced rear yard." },
+        { "file": "adu-x-approach.jpg", "caption": "Model X — approach", "alt": "Render of Model X approached across the lawn." }
+      ] },
+      { "layout": "g3", "sheet": false, "images": [
+        { "file": "adu-x-side.jpg", "caption": "Long elevation", "alt": "Long side elevation of Model X." },
+        { "file": "adu-x-rear.jpg", "caption": "Rear elevation", "alt": "Rear of Model X." },
+        { "file": "adu-x-end.jpg", "caption": "End elevation", "alt": "Gable end of Model X." }
+      ] },
+      { "layout": "g3", "sheet": true, "images": [
+        { "file": "adu-x-board1.jpg", "caption": "Model X — plans and exterior", "alt": "Presentation board for Model X." },
+        { "file": "adu-y-board1.jpg", "caption": "Model Y — plans and exterior", "alt": "Presentation board for Model Y." },
+        { "file": "adu-z-board1.jpg", "caption": "Model Z — plans and exterior", "alt": "Presentation board for Model Z." }
+      ] }
+    ]
+  },
+  {
+    "slug": "frozen-ridge",
+    "no": "02",
+    "title": "365 Frozen Ridge Road",
+    "location": "Newburgh, New York",
+    "year": "2026",
+    "category": "Interiors",
+    "summary": "Interior design and a thirty-sheet documentation set for a proposed single-family house in Orange County.",
+    "body": [
+      "A proposed single-family house on a 0.945-acre lot in Orange County. I took the approved shell and designed the interiors — layouts, finishes, joinery and lighting — then produced the full interior design drawing set & the renders."
+    ],
+    "credit": "Architectural plans and elevations by others. Interior design, ID drawing set and renders by me.",
+    "spec": [["Location", "Newburgh, New York"], ["Role", "Interior design, ID set, visualization"], ["Lot", "41,158 sq ft (0.945 acre)"], ["Type", "Single-family residence"]],
+    "cover": "fr-living.jpg",
+    "heroCaption": "Living room — the full height of the volume",
+    "groups": [
+      { "layout": "g2", "sheet": false, "images": [
+        { "file": "fr-kitchen.jpg", "caption": "Kitchen and island", "alt": "Kitchen render." },
+        { "file": "fr-stair.jpg", "caption": "Stair with built-in bench", "alt": "Stair render." }
+      ] },
+      { "layout": "g2", "sheet": true, "images": [
+        { "file": "fr-plan-ground.jpg", "caption": "Furnished plan — ground floor", "alt": "Ground floor plan." },
+        { "file": "fr-plan-first.jpg", "caption": "Furnished plan — first floor", "alt": "First floor plan." }
+      ] }
+    ]
+  },
+  {
+    "slug": "novo-theatre",
+    "no": "03",
+    "title": "Novo Theatre",
+    "location": "Barishal, Bangladesh",
+    "year": "2019",
+    "category": "Academic",
+    "summary": "A 6.2-acre public science centre organised around a planetarium dome. B.Arch thesis.",
+    "body": ["A public science centre organised around a planetarium dome and a long exhibition bar."],
+    "spec": [["Location", "Barishal, Bangladesh"], ["Client", "Ministry of Science & Technology"], ["Site area", "6.2 acres"], ["Type", "Educational / recreational"]],
+    "cover": "novo-hero.jpg",
+    "heroCaption": "Approach across the reflecting pool",
+    "groups": [
+      { "layout": "g2", "sheet": true, "images": [
+        { "file": "novo-masterplan.jpg", "caption": "Masterplan and zoning", "alt": "Masterplan." },
+        { "file": "novo-site.jpg", "caption": "Site and approach", "alt": "Site map." }
+      ] },
+      { "layout": "full", "sheet": true, "images": [
+        { "file": "novo-elevations.jpg", "caption": "Elevations", "alt": "Elevations." }
+      ] }
+    ]
+  },
+  {
+    "slug": "uttara-residential-tower",
+    "no": "04",
+    "title": "Uttara Residential Tower",
+    "location": "Uttara, Dhaka",
+    "year": "2022",
+    "category": "Architecture",
+    "summary": "A residential tower in Uttara: elevations and typical plan. Cornerstone Design Studio.",
+    "body": ["Elevation studies and a typical floor plan for a residential tower."],
+    "credit": "Cornerstone Design Studio.",
+    "spec": [["Location", "Uttara, Dhaka"], ["Office", "Cornerstone Design Studio"], ["Type", "Residential tower"], ["Year", "2022"]],
+    "cover": "post-011-01.jpg",
+    "heroCaption": "Street elevation",
+    "groups": [
+      { "layout": "g2", "sheet": false, "images": [
+        { "file": "post-011-02.jpg", "caption": "Elevation", "alt": "Elevation." },
+        { "file": "post-011-03.jpg", "caption": "Plan", "alt": "Plan." }
+      ] }
+    ]
+  }
+]

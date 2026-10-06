@@ -1,0 +1,610 @@
+{
+  "adu-models/adu-x-approach.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-bedroom-tv.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-bedroom.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-board1.jpg": {
+    "w": 2267,
+    "h": 3400
+  },
+  "adu-models/adu-x-board2.jpg": {
+    "w": 2267,
+    "h": 3400
+  },
+  "adu-models/adu-x-context.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-end.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-hero.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-kitchen.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-living-tv.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-living.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-rear.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-x-side.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-y-board1.jpg": {
+    "w": 2267,
+    "h": 3400
+  },
+  "adu-models/adu-y-board2.jpg": {
+    "w": 2267,
+    "h": 3400
+  },
+  "adu-models/adu-y-hero.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "adu-models/adu-z-board1.jpg": {
+    "w": 2267,
+    "h": 3400
+  },
+  "adu-models/adu-z-board2.jpg": {
+    "w": 2267,
+    "h": 3400
+  },
+  "adu-models/adu-z-hero.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "drawing/burj-drawing.jpg": {
+    "w": 1463,
+    "h": 2400
+  },
+  "frozen-ridge/fr-axon-exterior.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-axon-first.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-axon-ground.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-bedroom-green.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-bedroom-guest.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-bedroom-tv.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-bedroom.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-dining.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-featurewall.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "frozen-ridge/fr-fireplace-tv.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-garage.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-kitchen-dining.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-kitchen.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-kitchendetail.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "frozen-ridge/fr-laundry.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-lighting.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "frozen-ridge/fr-living-dining.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-living-fireplace.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-living-lounge.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-living.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-plan-first.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-plan-ground.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-stair-upper.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-stair.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "frozen-ridge/fr-tiles.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "uttara-studio-apartment/interior-bath.jpg": {
+    "w": 1961,
+    "h": 1215
+  },
+  "uttara-studio-apartment/interior-bedroom.jpg": {
+    "w": 2045,
+    "h": 1270
+  },
+  "uttara-studio-apartment/interior-living.jpg": {
+    "w": 1566,
+    "h": 977
+  },
+  "drawing/logos.jpg": {
+    "w": 2044,
+    "h": 1195
+  },
+  "novo-theatre/novo-elevations.jpg": {
+    "w": 2041,
+    "h": 1110
+  },
+  "novo-theatre/novo-hero.jpg": {
+    "w": 2041,
+    "h": 472
+  },
+  "novo-theatre/novo-masterplan.jpg": {
+    "w": 2041,
+    "h": 1410
+  },
+  "novo-theatre/novo-site.jpg": {
+    "w": 949,
+    "h": 640
+  },
+  "drawing/photo-burjkhalifa.jpg": {
+    "w": 358,
+    "h": 480
+  },
+  "drawing/photo-burjlake.jpg": {
+    "w": 682,
+    "h": 386
+  },
+  "drawing/photo-gulmarg.jpg": {
+    "w": 1008,
+    "h": 567
+  },
+  "drawing/photo-jamamasjid.jpg": {
+    "w": 836,
+    "h": 309
+  },
+  "drawing/photo-rangamati.jpg": {
+    "w": 601,
+    "h": 337
+  },
+  "drawing/photo-tajmahal.jpg": {
+    "w": 758,
+    "h": 427
+  },
+  "green-farm-resort/resort-floating.jpg": {
+    "w": 2049,
+    "h": 1270
+  },
+  "green-farm-resort/resort-hero.jpg": {
+    "w": 2040,
+    "h": 1279
+  },
+  "green-farm-resort/resort-walkway.jpg": {
+    "w": 2050,
+    "h": 1276
+  },
+  "drawing/sketch.jpg": {
+    "w": 1920,
+    "h": 1070
+  },
+  "vacation-house/vacation-bedroom.jpg": {
+    "w": 983,
+    "h": 610
+  },
+  "vacation-house/vacation-construction.jpg": {
+    "w": 768,
+    "h": 626
+  },
+  "vacation-house/vacation-hero.jpg": {
+    "w": 1744,
+    "h": 1080
+  },
+  "vacation-house/vacation-living.jpg": {
+    "w": 1157,
+    "h": 720
+  },
+  "z-commercial-complex/z-hero.jpg": {
+    "w": 700,
+    "h": 750
+  },
+  "z-commercial-complex/z-plans.jpg": {
+    "w": 2041,
+    "h": 1405
+  },
+  "z-commercial-complex/z-sections.jpg": {
+    "w": 1225,
+    "h": 1108
+  },
+  "jashore-apartment/post-001-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-07.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-08.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-001-09.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-003-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-003-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-003-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-003-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "narayanganj-kitchen/post-004-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "narayanganj-kitchen/post-004-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "narayanganj-kitchen/post-004-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-005-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-005-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "uttara-studio-apartment/post-008-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "uttara-studio-apartment/post-008-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "uttara-studio-apartment/post-008-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "learning-space-interior/post-009-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "learning-space-interior/post-009-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "learning-space-interior/post-009-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "learning-space-interior/post-009-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bijoy-nagar-residence/post-010-01.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-02.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-03.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-04.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-05.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-06.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "uttara-residential-tower/post-011-01.jpg": {
+    "w": 1414,
+    "h": 2000
+  },
+  "uttara-residential-tower/post-011-02.jpg": {
+    "w": 1414,
+    "h": 2000
+  },
+  "uttara-residential-tower/post-011-03.jpg": {
+    "w": 1414,
+    "h": 2000
+  },
+  "khulna-residence/post-012-01.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "khulna-residence/post-012-02.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "khulna-residence/post-012-03.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "khulna-residence/post-012-04.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "khulna-residence/post-012-05.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "wari-old-dhaka/post-013-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-07.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "green-farm-resort/post-014-01.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-farm-resort/post-014-02.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-farm-resort/post-014-03.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-farm-resort/post-014-04.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-farm-resort/post-014-05.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-farm-resort/post-014-06.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-school-rooftop/post-015-01.jpg": {
+    "w": 2000,
+    "h": 1380
+  },
+  "green-school-rooftop/post-015-02.jpg": {
+    "w": 2000,
+    "h": 1380
+  },
+  "green-school-rooftop/post-015-03.jpg": {
+    "w": 2000,
+    "h": 1380
+  },
+  "green-school-rooftop/post-015-04.jpg": {
+    "w": 2000,
+    "h": 1380
+  },
+  "green-school-rooftop/post-015-05.jpg": {
+    "w": 2000,
+    "h": 1380
+  },
+  "green-school-rooftop/post-015-06.jpg": {
+    "w": 2000,
+    "h": 1380
+  },
+  "bashundhara-rooftop/post-016-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-07.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-08.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-09.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-10.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "lcls-lawyers-chamber/post-018-01.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "lcls-lawyers-chamber/post-018-02.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "lcls-lawyers-chamber/post-018-03.jpg": {
+    "w": 1920,
+    "h": 1080
+  }
+}
