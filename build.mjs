@@ -258,10 +258,11 @@ function home() {
 
   const pr = site.practice || {};
   const cv = (pr.cv || []).map(([y, t, s]) => `<li><span class="yr">${esc(y)}</span><span><b>${esc(t)}</b>${s ? `<span>${esc(s)}</span>` : ''}</span></li>`).join('\n');
-  // Optional head-and-shoulders portrait, shown once, above the CV list.
-  const pt = pr.portrait && pr.portrait.file ? img(pr.portrait.file, 'home', 'site.json practice.portrait') : null;
+  // Optional head-and-shoulders portrait, shown once, beside the contact lines.
+  const po = contact.portrait;
+  const pt = po && po.file ? img(po.file, 'home', 'site.json contact.portrait') : null;
   const portrait = pt ? `
-      <figure class="portrait">${imgTag(pt, pr.portrait.alt || NAME, SIZES.portrait)}${pr.portrait.caption ? `<figcaption>${esc(pr.portrait.caption)}</figcaption>` : ''}</figure>` : '';
+    <figure class="portrait">${imgTag(pt, po.alt || NAME, SIZES.portrait)}${po.caption ? `<figcaption>${esc(po.caption)}</figcaption>` : ''}</figure>` : '';
   const dr = site.drawing || {};
   const cl = lines.map(([k, t, h]) => `<li><span class="k">${esc(k)}</span><span>${link(t, h)}</span></li>`).join('\n');
 
@@ -301,9 +302,9 @@ ${cards}
   <div class="wrap">
     <h2 class="label" id="practice-h">${esc(pr.title || 'Practice')}</h2>
     ${pr.lead ? `<p class="lead exp">${esc(pr.lead)}</p>` : ''}
-    <div class="cols${portrait ? ' has-portrait' : ''}">
+    <div class="cols">
       <div class="prose">${(pr.paragraphs || []).map((t) => `<p>${esc(t)}</p>`).join('\n')}</div>
-      <div class="side">${portrait}
+      <div class="side">
       <ul class="cv">
 ${cv}
       </ul>
@@ -326,9 +327,11 @@ ${groups(dr.groups, 'drawing', 'site.json drawing')}
 <section class="contact wrap" id="contact" aria-labelledby="contact-h">
   <p class="label">${esc(contact.title || 'Contact')}</p>
   <h2 class="big exp" id="contact-h">${esc(contact.heading || 'Contact').replace(/\S+-\S+/g, (w) => `<span class="nw">${w}</span>`)}</h2>
-  <ul class="lines">
+  <div class="contact-body${portrait ? ' has-portrait' : ''}">${portrait}
+    <ul class="lines">
 ${cl}
-  </ul>
+    </ul>
+  </div>
   ${contact.colophon ? `<p class="colophon">${esc(contact.colophon)}</p>` : ''}
 </section>
 </main>

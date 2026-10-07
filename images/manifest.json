@@ -139,30 +139,6 @@
     "w": 2000,
     "h": 1125
   },
-  "bijoy-nagar-residence/post-010-01.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-02.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-03.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-04.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-05.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-06.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
   "dhanmondi-apartments/post-002-01.jpg": {
     "w": 2000,
     "h": 1125
@@ -198,14 +174,6 @@
   "drawing/logos-2.jpg": {
     "w": 2400,
     "h": 1465
-  },
-  "drawing/photo-gulmarg.jpg": {
-    "w": 1008,
-    "h": 567
-  },
-  "drawing/photo-rangamati.jpg": {
-    "w": 601,
-    "h": 337
   },
   "drawing/sketch-2.jpg": {
     "w": 1920,
@@ -587,10 +555,6 @@
     "w": 2405,
     "h": 3400
   },
-  "novo-theatre/novo-hero.jpg": {
-    "w": 2041,
-    "h": 472
-  },
   "novo-theatre/novo-render-1.jpg": {
     "w": 960,
     "h": 540
@@ -794,5 +758,13 @@
   "drawing/photo-pittsburgh.jpg": {
     "w": 2400,
     "h": 1350
+  },
+  "drawing/photo-sonamarg.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "drawing/photo-rangamati-2.jpg": {
+    "w": 2400,
+    "h": 1800
   }
 }

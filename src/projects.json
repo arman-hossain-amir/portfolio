@@ -438,17 +438,6 @@
     "heroCaption": "Exhibition block in perforated brick",
     "groups": [
       {
-        "layout": "full",
-        "sheet": false,
-        "images": [
-          {
-            "file": "novo-hero.jpg",
-            "caption": "Approach across the reflecting pool",
-            "alt": "Render of the planetarium dome and perforated brick exhibition block across a long reflecting pool."
-          }
-        ]
-      },
-      {
         "layout": "g2",
         "sheet": false,
         "images": [
@@ -1601,83 +1590,8 @@
     ]
   },
   {
-    "slug": "bijoy-nagar-residence",
-    "no": "15",
-    "title": "Bijoy Nagar Residence",
-    "location": "Bijoy Nagar, Dhaka",
-    "year": "2022–23",
-    "category": "Interiors",
-    "where": "Bijoy Nagar, Dhaka — interior design for an apartment",
-    "summary": "An apartment interior in central Dhaka in grey, white and dark-stained timber, with open shelving, a fitted kitchen wall and built-in bedroom joinery.",
-    "body": [
-      "Interior design for an apartment in Bijoy Nagar, central Dhaka, in grey, white and dark-stained timber.",
-      "Open black shelving frames the media wall and separates the living room from the dining area, which is seen through a gridded timber and glass screen. One joinery run along the dining wall holds the refrigerator, oven, washing machine and open storage beside a small breakfast table. In the bedroom a stone-clad panel carries the television, and a lit dressing niche is built in between the wardrobes."
-    ],
-    "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [
-      [
-        "Location",
-        "Bijoy Nagar, Dhaka"
-      ],
-      [
-        "Role",
-        "Interior design, visualization"
-      ],
-      [
-        "Type",
-        "Apartment interior"
-      ],
-      [
-        "Office",
-        "Cornerstone Design Studio"
-      ]
-    ],
-    "cover": "post-010-01.jpg",
-    "coverAlt": "Render of the living room with a grey media wall framed by black open shelving, a mirrored ceiling panel and lounge chairs.",
-    "heroCaption": "Living room and media wall",
-    "groups": [
-      {
-        "layout": "g2",
-        "sheet": false,
-        "images": [
-          {
-            "file": "post-010-02.jpg",
-            "caption": "Living room toward the dining area",
-            "alt": "Render of lounge chairs and a coffee table in front of a gridded timber and glass screen that looks onto the dining table."
-          },
-          {
-            "file": "post-010-03.jpg",
-            "caption": "Dining wall joinery",
-            "alt": "Render of a dining wall of grey and black joinery holding a refrigerator, oven, washing machine and open shelves, beside a small marble table."
-          }
-        ]
-      },
-      {
-        "layout": "g3",
-        "sheet": false,
-        "images": [
-          {
-            "file": "post-010-04.jpg",
-            "caption": "Bedroom television wall",
-            "alt": "Render of a bedroom with a grey stone-clad television panel, a ring light and a floating black-topped dressing counter."
-          },
-          {
-            "file": "post-010-05.jpg",
-            "caption": "Dressing niche between wardrobes",
-            "alt": "Render of a lit timber dressing niche with a desk set between white wardrobes, a tall mirror and framed prints."
-          },
-          {
-            "file": "post-010-06.jpg",
-            "caption": "Kitchen",
-            "alt": "Render of an L-shaped white kitchen with black worktops, a marble-pattern backsplash and a steel range."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "slug": "dhanmondi-apartments",
-    "no": "16",
+    "no": "15",
     "title": "Two Apartments, Dhanmondi",
     "location": "Dhanmondi, Dhaka",
     "year": "2023–24",
@@ -1764,7 +1678,7 @@
   },
   {
     "slug": "lcls-lawyers-chamber",
-    "no": "17",
+    "no": "16",
     "title": "LCLS Lawyer's Chamber",
     "location": "Gulshan-1, Dhaka",
     "year": "2023–24",
@@ -1818,7 +1732,7 @@
   },
   {
     "slug": "uttara-residential-tower",
-    "no": "18",
+    "no": "17",
     "title": "Uttara Residential Building",
     "location": "Uttara, Dhaka",
     "year": "2022–23",
@@ -1872,7 +1786,7 @@
   },
   {
     "slug": "green-school-rooftop",
-    "no": "19",
+    "no": "18",
     "title": "Green School Rooftops",
     "location": "Mohammadpur, Dhaka",
     "year": "2022–23",
@@ -1947,7 +1861,7 @@
   },
   {
     "slug": "learning-space-interior",
-    "no": "20",
+    "no": "19",
     "title": "Noubahini School Library",
     "location": "Chattogram, Bangladesh",
     "year": "2022–23",
@@ -2006,7 +1920,7 @@
   },
   {
     "slug": "fujitec-elevator",
-    "no": "21",
+    "no": "20",
     "title": "Elevator Cabin Designs",
     "location": "For FUJITEC, Japan",
     "year": "",
@@ -2042,7 +1956,7 @@
   },
   {
     "slug": "narayanganj-kitchen",
-    "no": "22",
+    "no": "21",
     "title": "Narayanganj Kitchen",
     "location": "College Road, Narayanganj",
     "year": "2023–24",

@@ -14,17 +14,13 @@
       ],
       [
         "Available",
-        "January 2027"
+        "February 2027"
       ],
       [
         "Projects",
-        "Twenty-two selected"
+        "Twenty-one selected"
       ]
     ]
-  },
-  "heroImage": {
-    "file": "novo-theatre/novo-hero.jpg",
-    "alt": "Render of the Novo Theatre planetarium across a reflecting pool, a white dome beside a perforated red-brick exhibition block."
   },
   "work": {
     "title": "Selected work",
@@ -33,10 +29,6 @@
   "practice": {
     "title": "Practice",
     "lead": "From construction drawings to permit sets in New York.",
-    "portrait": {
-      "file": "home/portrait.jpg",
-      "alt": "Portrait of Arman Hossain Amir"
-    },
     "paragraphs": [
       "I trained as an architect at North South University in Dhaka and spent six years in practice there, moving from producing construction documents to leading projects and running site supervision. Most of that work was residential, interior and hospitality — the kind of project where the drawings have to survive contact with a real contractor on a real site.",
       "I moved to the United States to study project management at Northeastern University, learning the scheduling, budgeting and resource-planning side of the same work. At Quantum Design & Safety in New York I designed three accessory dwelling units for the city's pre-approved plan library, produced the full interior drawing set for a single-family house upstate, and coordinated site-specific safety plans and egress drawings for city construction projects — back in front of code, drawings and inspectors, this time under the New York City Department of Buildings rather than Rajuk.",
@@ -161,14 +153,14 @@
         "sheet": false,
         "images": [
           {
-            "file": "photo-gulmarg.jpg",
-            "caption": "Gulmarg, Kashmir — 2022",
-            "alt": "Snow-covered valley and mountains at Gulmarg, Kashmir."
+            "file": "photo-sonamarg.jpg",
+            "caption": "Sonamarg, Kashmir — 2022",
+            "alt": "Snow-covered valley and mountains at Sonamarg, Kashmir."
           },
           {
-            "file": "photo-rangamati.jpg",
+            "file": "photo-rangamati-2.jpg",
             "caption": "Rangamati, Bangladesh — 2020",
-            "alt": "Sunset over the lake at Rangamati, Bangladesh."
+            "alt": "Sunset over the lake at Rangamati, Bangladesh, with boats moored in silhouette."
           }
         ]
       },
@@ -191,7 +183,7 @@
     ]
   },
   "contact": {
-    "heading": "Available for full-time work from January 2027.",
+    "heading": "Available for full-time work from February 2027.",
     "lines": [
       [
         "Email",
@@ -219,6 +211,11 @@
         "/Arman-Hossain-Amir-Resume.pdf"
       ]
     ],
-    "colophon": "All projects shown are my own work, produced at Quantum Design & Safety LLC, ZED Architecture & Construction, Cornerstone Design Studio, Dreero.aec, or at North South University. Drawings and renders are reproduced with the permission of the offices concerned."
-  }
+    "colophon": "All projects shown are my own work, produced at Quantum Design & Safety LLC, ZED Architecture & Construction, Cornerstone Design Studio, Dreero.aec, or at North South University. Drawings and renders are reproduced with the permission of the offices concerned.",
+    "portrait": {
+      "file": "home/portrait.jpg",
+      "alt": "Portrait of Arman Hossain Amir"
+    }
+  },
+  "heroProject": "novo-theatre"
 }
