@@ -283,30 +283,6 @@
     "w": 2400,
     "h": 2009
   },
-  "green-farm-resort/post-014-01.jpg": {
-    "w": 2000,
-    "h": 1318
-  },
-  "green-farm-resort/post-014-02.jpg": {
-    "w": 2000,
-    "h": 1318
-  },
-  "green-farm-resort/post-014-03.jpg": {
-    "w": 2000,
-    "h": 1318
-  },
-  "green-farm-resort/post-014-04.jpg": {
-    "w": 2000,
-    "h": 1318
-  },
-  "green-farm-resort/post-014-05.jpg": {
-    "w": 2000,
-    "h": 1318
-  },
-  "green-farm-resort/post-014-06.jpg": {
-    "w": 2000,
-    "h": 1318
-  },
   "green-school-rooftop/post-015-01.jpg": {
     "w": 2000,
     "h": 1380
@@ -398,10 +374,6 @@
   "gulshan-apartment/gulshan-17.jpg": {
     "w": 2400,
     "h": 1350
-  },
-  "home/portrait.jpg": {
-    "w": 1280,
-    "h": 1600
   },
   "jashore-apartment/post-001-01.jpg": {
     "w": 2000,
@@ -766,5 +738,41 @@
   "drawing/photo-rangamati-2.jpg": {
     "w": 2400,
     "h": 1800
+  },
+  "green-farm-resort/gf-01.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "green-farm-resort/gf-02.jpg": {
+    "w": 2400,
+    "h": 1560
+  },
+  "green-farm-resort/gf-03.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "green-farm-resort/gf-04.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "green-farm-resort/gf-05.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "green-farm-resort/gf-06.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "home/portrait-2.jpg": {
+    "w": 1200,
+    "h": 1200
+  },
+  "green-farm-resort/post-014-05.jpg": {
+    "w": 2000,
+    "h": 1318
+  },
+  "green-farm-resort/post-014-06.jpg": {
+    "w": 2000,
+    "h": 1318
   }
 }

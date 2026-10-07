@@ -103,7 +103,7 @@ const SIZES = {
   card: '(min-width:1520px) 448px, (min-width:1100px) 30vw, (min-width:640px) 46vw, 92vw',
   bleed: '(min-width:1920px) 1920px, 100vw',
   homehero: '(min-width:1520px) 1376px, 94vw',
-  portrait: '(min-width:901px) 280px, 220px',
+  portrait: '(min-width:861px) 300px, 240px',
 };
 
 const ar = (im) => +(im.w / im.h).toFixed(4);

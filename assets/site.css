@@ -174,14 +174,14 @@ h1,h2,h3,p,dl,dd,figure{margin:0}
 .lines a:hover{border-bottom-color:var(--text)}
 @media (max-width:480px){.lines li{grid-template-columns:84px minmax(0,1fr);gap:12px}}
 /* portrait signs off the contact lines: right of them on desktop, between heading and lines on mobile */
-.contact-body.has-portrait{display:grid;grid-template-columns:minmax(0,780px) clamp(220px,21vw,300px);grid-template-areas:"lines pic";gap:clamp(40px,7vw,120px);align-items:end}
+.contact-body.has-portrait{display:grid;grid-template-columns:minmax(0,780px) minmax(clamp(220px,20vw,300px),1fr);grid-template-areas:"lines pic";gap:clamp(40px,6vw,96px);align-items:center}
 .contact-body.has-portrait .lines{grid-area:lines;max-width:none}
-.portrait{grid-area:pic;margin:0}
-.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#E2E0DB}
-.portrait figcaption{margin-top:12px;font-size:12.5px;color:var(--mid);line-height:1.4}
+.portrait{grid-area:pic;margin:0;justify-self:center;width:clamp(220px,20vw,300px);text-align:center}
+.portrait img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%}
+.portrait figcaption{margin-top:14px;font-size:12.5px;color:var(--mid);line-height:1.4}
 @media (max-width:860px){
   .contact-body.has-portrait{grid-template-columns:minmax(0,1fr);grid-template-areas:"pic" "lines";gap:clamp(28px,6vw,40px)}
-  .portrait{width:min(58vw,260px)}
+  .portrait{width:min(56vw,240px)}
 }
 .colophon{margin-top:clamp(32px,4vw,48px);font-size:13px;color:var(--mid);max-width:66ch}
 
