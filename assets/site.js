@@ -9,6 +9,7 @@
     var apply = function (c, save) {
       if (!btns.some(function (b) { return b.dataset.cat === c; })) c = 'all';
       btns.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.cat === c); });
+      cards[0].parentNode.classList.toggle('filtered', c !== 'all');
       var n = 0;
       cards.forEach(function (el) { var on = c === 'all' || el.dataset.cat === c; el.hidden = !on; if (on) n++; });
       if (status) status.textContent = n + (n === 1 ? ' project' : ' projects') + ' shown';
@@ -25,6 +26,24 @@
       var w = d.getElementById('work');
       if (w) w.scrollIntoView();
     }
+  }
+
+  /* ---- home: top bar is clear while it sits over the hero image ---- */
+  var bar = d.querySelector('.bar'), hm = d.querySelector('.has-img .hero-media');
+  if (bar && hm) {
+    var tick = function () { bar.classList.toggle('clear', scrollY < hm.offsetHeight - bar.offsetHeight - 40); };
+    addEventListener('scroll', tick, { passive: true });
+    tick();
+  }
+
+  /* ---- scroll reveal (only for elements still below the fold) ---- */
+  if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    $$('.groups .fig, .card, .pn, .portrait, .contained .frame').forEach(function (el) {
+      if (el.getBoundingClientRect().top > innerHeight) { el.classList.add('pre'); io.observe(el); }
+    });
   }
 
   /* ---- lightbox ---- */

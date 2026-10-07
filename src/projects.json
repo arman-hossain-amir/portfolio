@@ -14,43 +14,160 @@
       "All three run on a high-efficiency heat pump, carry insulation above NYC Energy Conservation Code minimums, and use glazing at U-factor 0.27 or lower and SHGC 0.4 or lower — compatible with Passive House and ENERGY STAR. Each plan sets aside a location for a future ADA-compliant ramp and specifies 60-minute fire-rated interior panels."
     ],
     "credit": "Designed and drawn by me. Submitted to the city under a registered design professional of record.",
-    "spec": [["Location", "New York City"], ["Role", "Designer, full drawing set"], ["Size", "643 – 776 sq ft each"], ["Type", "Detached ADU, prefabricated"]],
+    "spec": [
+      [
+        "Location",
+        "New York City"
+      ],
+      [
+        "Role",
+        "Designer, full drawing set"
+      ],
+      [
+        "Size",
+        "643 – 776 sq ft each"
+      ],
+      [
+        "Type",
+        "Detached ADU, prefabricated"
+      ]
+    ],
     "cover": "adu-x-hero.jpg",
     "coverAlt": "Render of ADU Model X from the entry corner, a single-storey unit with a textured white facade, dark mono-pitch roof and a glass entry canopy.",
     "heroCaption": "Model X — entry corner",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "adu-x-context.jpg", "caption": "Model X in a typical rear yard", "alt": "Render of Model X standing in a fenced rear yard with two-storey neighbouring houses behind." },
-        { "file": "adu-x-approach.jpg", "caption": "Model X — approach", "alt": "Render of Model X approached across the lawn, showing the entry deck and window wall." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "adu-x-side.jpg", "caption": "Long elevation", "alt": "Render of the long side elevation of Model X seen over a white picket fence." },
-        { "file": "adu-x-rear.jpg", "caption": "Rear elevation", "alt": "Render of the rear of Model X in dark siding, with a resident and dog on the lawn." },
-        { "file": "adu-x-end.jpg", "caption": "End elevation", "alt": "Render of the gable end of Model X framed by mature trees." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "adu-x-living.jpg", "caption": "Living room toward the kitchen", "alt": "Interior render of the Model X living room looking toward the kitchen, with a globe chandelier and pale sofa." },
-        { "file": "adu-x-living-tv.jpg", "caption": "Living room and media wall", "alt": "Interior render of the living room television wall in textured stone, with the breakfast bar to one side." },
-        { "file": "adu-x-kitchen.jpg", "caption": "Kitchen and breakfast bar", "alt": "Interior render of the compact kitchen with white cabinetry, pendant lights and a marble breakfast bar." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "adu-x-bedroom.jpg", "caption": "Bedroom with study corner", "alt": "Interior render of the bedroom with a green upholstered headboard, desk and louvred wardrobe doors." },
-        { "file": "adu-x-bedroom-tv.jpg", "caption": "Bedroom media wall", "alt": "Interior render of the bedroom media wall in timber panelling with a floating console." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "adu-y-hero.jpg", "caption": "Model Y — 765 sq ft, bedroom plus office", "alt": "Render of ADU Model Y, an L-shaped single-storey unit with a gabled wing, in a fenced backyard." },
-        { "file": "adu-z-hero.jpg", "caption": "Model Z — 776 sq ft over two floors", "alt": "Render of ADU Model Z, a two-storey unit with vertical timber cladding, in a fenced backyard." }
-      ] },
-      { "layout": "g3", "sheet": true, "images": [
-        { "file": "adu-x-board1.jpg", "caption": "Model X — plans and exterior", "alt": "Presentation board for Model X: exterior render, floor plan, roof plan and four contextual views." },
-        { "file": "adu-y-board1.jpg", "caption": "Model Y — plans and exterior", "alt": "Presentation board for Model Y: exterior render, floor plan, roof plan and four contextual views." },
-        { "file": "adu-z-board1.jpg", "caption": "Model Z — plans and exterior", "alt": "Presentation board for Model Z: exterior render, both floor plans, roof plan and four contextual views." }
-      ] },
-      { "layout": "g3", "sheet": true, "images": [
-        { "file": "adu-x-board2.jpg", "caption": "Model X — interiors and elevations", "alt": "Interior board for Model X: living room render, four elevations and four interior views." },
-        { "file": "adu-y-board2.jpg", "caption": "Model Y — interiors and elevations", "alt": "Interior board for Model Y: living room render, four elevations and four interior views." },
-        { "file": "adu-z-board2.jpg", "caption": "Model Z — interiors and elevations", "alt": "Interior board for Model Z: double-height living render, four elevations and four interior views." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "adu-x-context.jpg",
+            "caption": "Model X in a typical rear yard",
+            "alt": "Render of Model X standing in a fenced rear yard with two-storey neighbouring houses behind."
+          },
+          {
+            "file": "adu-x-approach.jpg",
+            "caption": "Model X — approach",
+            "alt": "Render of Model X approached across the lawn, showing the entry deck and window wall."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "adu-x-side.jpg",
+            "caption": "Long elevation",
+            "alt": "Render of the long side elevation of Model X seen over a white picket fence."
+          },
+          {
+            "file": "adu-x-rear.jpg",
+            "caption": "Rear elevation",
+            "alt": "Render of the rear of Model X in dark siding, with a resident and dog on the lawn."
+          },
+          {
+            "file": "adu-x-end.jpg",
+            "caption": "End elevation",
+            "alt": "Render of the gable end of Model X framed by mature trees."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "adu-x-living.jpg",
+            "caption": "Living room toward the kitchen",
+            "alt": "Interior render of the Model X living room looking toward the kitchen, with a globe chandelier and pale sofa."
+          },
+          {
+            "file": "adu-x-living-tv.jpg",
+            "caption": "Living room and media wall",
+            "alt": "Interior render of the living room television wall in textured stone, with the breakfast bar to one side."
+          },
+          {
+            "file": "adu-x-kitchen.jpg",
+            "caption": "Kitchen and breakfast bar",
+            "alt": "Interior render of the compact kitchen with white cabinetry, pendant lights and a marble breakfast bar."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "adu-x-bedroom.jpg",
+            "caption": "Bedroom with study corner",
+            "alt": "Interior render of the bedroom with a green upholstered headboard, desk and louvred wardrobe doors."
+          },
+          {
+            "file": "adu-x-bedroom-tv.jpg",
+            "caption": "Bedroom media wall",
+            "alt": "Interior render of the bedroom media wall in timber panelling with a floating console."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "adu-y-hero.jpg",
+            "caption": "Model Y — 765 sq ft, bedroom plus office",
+            "alt": "Render of ADU Model Y, an L-shaped single-storey unit with a gabled wing, in a fenced backyard."
+          },
+          {
+            "file": "adu-z-hero.jpg",
+            "caption": "Model Z — 776 sq ft over two floors",
+            "alt": "Render of ADU Model Z, a two-storey unit with vertical timber cladding, in a fenced backyard."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": true,
+        "images": [
+          {
+            "file": "adu-x-board1.jpg",
+            "caption": "Model X — plans and exterior",
+            "alt": "Presentation board for Model X: exterior render, floor plan, roof plan and four contextual views."
+          },
+          {
+            "file": "adu-y-board1.jpg",
+            "caption": "Model Y — plans and exterior",
+            "alt": "Presentation board for Model Y: exterior render, floor plan, roof plan and four contextual views."
+          },
+          {
+            "file": "adu-z-board1.jpg",
+            "caption": "Model Z — plans and exterior",
+            "alt": "Presentation board for Model Z: exterior render, both floor plans, roof plan and four contextual views."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": true,
+        "images": [
+          {
+            "file": "adu-x-board2.jpg",
+            "caption": "Model X — interiors and elevations",
+            "alt": "Interior board for Model X: living room render, four elevations and four interior views."
+          },
+          {
+            "file": "adu-y-board2.jpg",
+            "caption": "Model Y — interiors and elevations",
+            "alt": "Interior board for Model Y: living room render, four elevations and four interior views."
+          },
+          {
+            "file": "adu-z-board2.jpg",
+            "caption": "Model Z — interiors and elevations",
+            "alt": "Interior board for Model Z: double-height living render, four elevations and four interior views."
+          }
+        ]
+      }
     ]
   },
   {
@@ -67,59 +184,220 @@
       "The plan turns on a double-height living space with a plaster fireplace column at its centre, open to the kitchen and dining on one side and to the stair on the other. Thirty sheets in all: furniture and lighting layouts, HVAC and curtain-rail layouts, floor and wall tile setting-out, and elevation details for the fireplace wall, the kitchen, bedroom joinery, four bathrooms and the laundry. I also prepared the material and bill-of-quantities schedule that priced the package."
     ],
     "credit": "Architectural plans and elevations by others. Interior design, ID drawing set, material schedule and renders by me.",
-    "spec": [["Location", "Newburgh, New York"], ["Role", "Interior design, ID set, visualization"], ["Lot", "41,158 sq ft (0.945 acre)"], ["Type", "Single-family residence"]],
+    "spec": [
+      [
+        "Location",
+        "Newburgh, New York"
+      ],
+      [
+        "Role",
+        "Interior design, ID set, visualization"
+      ],
+      [
+        "Lot",
+        "41,158 sq ft (0.945 acre)"
+      ],
+      [
+        "Type",
+        "Single-family residence"
+      ]
+    ],
     "cover": "fr-living.jpg",
     "coverAlt": "Render of the double-height living room with full-height curtains, suspended linear lights and a pale yellow sofa, dining beyond.",
     "heroCaption": "Living room — the full height of the volume",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "fr-living-fireplace.jpg", "caption": "Fireplace column from the living room", "alt": "Render looking toward the fireplace column with a yellow sofa and a large indoor plant." },
-        { "file": "fr-living-dining.jpg", "caption": "Living and dining beneath the mezzanine", "alt": "Render of the living and dining areas under the double-height void, with a mezzanine above." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "fr-living-lounge.jpg", "caption": "Lounge toward the dining table", "alt": "Render of the lounge with suspended linear lights, planting and the dining table beyond." },
-        { "file": "fr-fireplace-tv.jpg", "caption": "Fireplace column and stair beyond", "alt": "Render of the plaster fireplace column with a wall-mounted television, kitchen to the left and stair beyond." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "fr-dining.jpg", "caption": "Dining beside the fire", "alt": "Render of the dining table and upholstered chairs beside the fireplace, stair visible behind." },
-        { "file": "fr-kitchen-dining.jpg", "caption": "Kitchen opening to dining", "alt": "Wide render of the kitchen opening onto the dining table." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "fr-kitchen.jpg", "caption": "Kitchen and island", "alt": "Render of the kitchen with a stone island, bar seating, linear pendant and integrated appliances." },
-        { "file": "fr-stair.jpg", "caption": "Stair with built-in bench", "alt": "Render of the open timber stair with a built-in bench and display niche beneath it." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "fr-stair-upper.jpg", "caption": "Stair from the landing", "alt": "Render looking down the marble stair to the dining area, with a glass and timber balustrade." },
-        { "file": "fr-bedroom.jpg", "caption": "Primary bedroom", "alt": "Render of the primary bedroom with a slatted feature wall, circular artwork and an upholstered bed." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "fr-bedroom-green.jpg", "caption": "Bedroom with upholstered headboard wall", "alt": "Render of a bedroom with a green upholstered headboard wall, paired lamps and framed artwork." },
-        { "file": "fr-bedroom-tv.jpg", "caption": "Bedroom media wall", "alt": "Render of a bedroom media wall in green panelling with a floating timber console." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "fr-bedroom-guest.jpg", "caption": "Guest bedroom", "alt": "Render of a guest bedroom with a grey bed and a triptych of framed prints between two doors." },
-        { "file": "fr-laundry.jpg", "caption": "Laundry", "alt": "Render of the laundry with side-by-side washer and dryer and a wall-hung timber vanity." },
-        { "file": "fr-garage.jpg", "caption": "Garage", "alt": "Render of the two-car garage with a tiled floor and ceiling-mounted opener." }
-      ] },
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "fr-plan-ground.jpg", "caption": "Furnished plan — ground floor", "alt": "Furnished plan view of the ground floor showing the garage, living, dining, kitchen, stair, bathroom and primary bedroom." },
-        { "file": "fr-plan-first.jpg", "caption": "Furnished plan — first floor", "alt": "Furnished plan view of the first floor showing bedrooms, bathrooms, the upper living area and the roof terrace." }
-      ] },
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "fr-axon-ground.jpg", "caption": "Cutaway axonometric — ground floor", "alt": "Cutaway axonometric of the ground floor with rooms furnished and the garage at one end." },
-        { "file": "fr-axon-first.jpg", "caption": "Cutaway axonometric — first floor", "alt": "Cutaway axonometric of the first floor with bedrooms furnished and the roof terrace beyond." }
-      ] },
-      { "layout": "full", "sheet": true, "images": [
-        { "file": "fr-axon-exterior.jpg", "caption": "The house from above", "alt": "Axonometric of the completed house from above, showing the roof, terrace and pergola." }
-      ] },
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "fr-lighting.jpg", "caption": "Lighting layout, ground floor", "alt": "Reflected ceiling and lighting layout drawing for the ground floor with fixture schedule." },
-        { "file": "fr-tiles.jpg", "caption": "Floor tile setting-out", "alt": "Floor tile setting-out drawing for the ground floor with tile types keyed by colour." }
-      ] },
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "fr-featurewall.jpg", "caption": "Living-room feature wall detail", "alt": "Elevation and section detail of the living room feature wall." },
-        { "file": "fr-kitchendetail.jpg", "caption": "Kitchen joinery details", "alt": "Kitchen joinery elevations and sections with dimensions." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-living-fireplace.jpg",
+            "caption": "Fireplace column from the living room",
+            "alt": "Render looking toward the fireplace column with a yellow sofa and a large indoor plant."
+          },
+          {
+            "file": "fr-living-dining.jpg",
+            "caption": "Living and dining beneath the mezzanine",
+            "alt": "Render of the living and dining areas under the double-height void, with a mezzanine above."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-living-lounge.jpg",
+            "caption": "Lounge toward the dining table",
+            "alt": "Render of the lounge with suspended linear lights, planting and the dining table beyond."
+          },
+          {
+            "file": "fr-fireplace-tv.jpg",
+            "caption": "Fireplace column and stair beyond",
+            "alt": "Render of the plaster fireplace column with a wall-mounted television, kitchen to the left and stair beyond."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-dining.jpg",
+            "caption": "Dining beside the fire",
+            "alt": "Render of the dining table and upholstered chairs beside the fireplace, stair visible behind."
+          },
+          {
+            "file": "fr-kitchen-dining.jpg",
+            "caption": "Kitchen opening to dining",
+            "alt": "Wide render of the kitchen opening onto the dining table."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-kitchen.jpg",
+            "caption": "Kitchen and island",
+            "alt": "Render of the kitchen with a stone island, bar seating, linear pendant and integrated appliances."
+          },
+          {
+            "file": "fr-stair.jpg",
+            "caption": "Stair with built-in bench",
+            "alt": "Render of the open timber stair with a built-in bench and display niche beneath it."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-stair-upper.jpg",
+            "caption": "Stair from the landing",
+            "alt": "Render looking down the marble stair to the dining area, with a glass and timber balustrade."
+          },
+          {
+            "file": "fr-bedroom.jpg",
+            "caption": "Primary bedroom",
+            "alt": "Render of the primary bedroom with a slatted feature wall, circular artwork and an upholstered bed."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-bedroom-green.jpg",
+            "caption": "Bedroom with upholstered headboard wall",
+            "alt": "Render of a bedroom with a green upholstered headboard wall, paired lamps and framed artwork."
+          },
+          {
+            "file": "fr-bedroom-tv.jpg",
+            "caption": "Bedroom media wall",
+            "alt": "Render of a bedroom media wall in green panelling with a floating timber console."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "fr-bedroom-guest.jpg",
+            "caption": "Guest bedroom",
+            "alt": "Render of a guest bedroom with a grey bed and a triptych of framed prints between two doors."
+          },
+          {
+            "file": "fr-laundry.jpg",
+            "caption": "Laundry",
+            "alt": "Render of the laundry with side-by-side washer and dryer and a wall-hung timber vanity."
+          },
+          {
+            "file": "fr-garage.jpg",
+            "caption": "Garage",
+            "alt": "Render of the two-car garage with a tiled floor and ceiling-mounted opener."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "fr-plan-ground.jpg",
+            "caption": "Furnished plan — ground floor",
+            "alt": "Furnished plan view of the ground floor showing the garage, living, dining, kitchen, stair, bathroom and primary bedroom."
+          },
+          {
+            "file": "fr-plan-first.jpg",
+            "caption": "Furnished plan — first floor",
+            "alt": "Furnished plan view of the first floor showing bedrooms, bathrooms, the upper living area and the roof terrace."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "fr-axon-ground.jpg",
+            "caption": "Cutaway axonometric — ground floor",
+            "alt": "Cutaway axonometric of the ground floor with rooms furnished and the garage at one end."
+          },
+          {
+            "file": "fr-axon-first.jpg",
+            "caption": "Cutaway axonometric — first floor",
+            "alt": "Cutaway axonometric of the first floor with bedrooms furnished and the roof terrace beyond."
+          }
+        ]
+      },
+      {
+        "layout": "full",
+        "sheet": true,
+        "images": [
+          {
+            "file": "fr-axon-exterior.jpg",
+            "caption": "The house from above",
+            "alt": "Axonometric of the completed house from above, showing the roof, terrace and pergola."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "fr-lighting.jpg",
+            "caption": "Lighting layout, ground floor",
+            "alt": "Reflected ceiling and lighting layout drawing for the ground floor with fixture schedule."
+          },
+          {
+            "file": "fr-tiles.jpg",
+            "caption": "Floor tile setting-out",
+            "alt": "Floor tile setting-out drawing for the ground floor with tile types keyed by colour."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "fr-featurewall.jpg",
+            "caption": "Living-room feature wall detail",
+            "alt": "Elevation and section detail of the living room feature wall."
+          },
+          {
+            "file": "fr-kitchendetail.jpg",
+            "caption": "Kitchen joinery details",
+            "alt": "Kitchen joinery elevations and sections with dimensions."
+          }
+        ]
+      }
     ]
   },
   {
@@ -133,21 +411,96 @@
     "summary": "B.Arch thesis: a 6.2-acre public science centre in Barishal, organised around a planetarium dome and a long exhibition bar.",
     "body": [
       "A public science centre organised around a planetarium dome and a long exhibition bar. The masterplan splits the riverside site into a public arrival court, an exhibition and learning zone, and a quieter research and administration wing, so school groups and researchers can use the building at the same time without crossing paths.",
-      "Programme covers the planetarium, exhibition gallery, lecture hall, library, research lab, cafeteria, gift shop and administration."
+      "Programme covers the planetarium, exhibition gallery, lecture hall, library, research lab, cafeteria, gift shop and administration.",
+      "A physical model of the site and buildings was made alongside the drawings and renders."
     ],
     "credit": "Thesis project, B.Arch, North South University.",
-    "spec": [["Location", "Barishal, Bangladesh"], ["Client", "Ministry of Science & Technology"], ["Site area", "6.2 acres"], ["Type", "Educational / recreational"]],
-    "cover": "novo-hero.jpg",
-    "coverAlt": "Render of the planetarium dome and perforated brick exhibition block across a long reflecting pool.",
-    "heroCaption": "Approach across the reflecting pool",
+    "spec": [
+      [
+        "Location",
+        "Barishal, Bangladesh"
+      ],
+      [
+        "Client",
+        "Ministry of Science & Technology"
+      ],
+      [
+        "Site area",
+        "6.2 acres"
+      ],
+      [
+        "Type",
+        "Educational / recreational"
+      ]
+    ],
+    "cover": "novo-render-3.jpg",
+    "coverAlt": "Render of the exhibition block, a long box of perforated red brick over a glazed ground floor, with visitors walking along the road beside it.",
+    "heroCaption": "Exhibition block in perforated brick",
     "groups": [
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "novo-masterplan.jpg", "caption": "Masterplan and zoning", "alt": "Coloured masterplan showing the circular planetarium, landscaped zones and parking." },
-        { "file": "novo-site.jpg", "caption": "Site and approach", "alt": "Aerial site map of the riverside plot with access roads and surrounding context marked." }
-      ] },
-      { "layout": "full", "sheet": true, "images": [
-        { "file": "novo-elevations.jpg", "caption": "Elevations", "alt": "South, west, east and north elevations showing the dome and perforated brick facade." }
-      ] }
+      {
+        "layout": "full",
+        "sheet": false,
+        "images": [
+          {
+            "file": "novo-hero.jpg",
+            "caption": "Approach across the reflecting pool",
+            "alt": "Render of the planetarium dome and perforated brick exhibition block across a long reflecting pool."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "novo-render-1.jpg",
+            "caption": "The dome on its pool",
+            "alt": "Render of the white planetarium dome rising from the reflecting pool, with the brick exhibition block behind."
+          },
+          {
+            "file": "novo-render-2.jpg",
+            "caption": "The approach road",
+            "alt": "Render of the tree-lined approach road leading to the entrance of the brick exhibition building."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "novo-board-masterplan.jpg",
+            "caption": "Masterplan and zoning",
+            "alt": "Masterplan sheet with zoning diagrams, the coloured site plan around the planetarium and the floor plans."
+          },
+          {
+            "file": "novo-site.jpg",
+            "caption": "Site and approach",
+            "alt": "Aerial site map of the riverside plot with access roads and surrounding context marked."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": true,
+        "images": [
+          {
+            "file": "novo-board-elevations.jpg",
+            "caption": "Elevations and sections",
+            "alt": "Sheet of south, west, east and north elevations and two sections, with a strip of renders below."
+          },
+          {
+            "file": "novo-board-renders.jpg",
+            "caption": "Render sheet",
+            "alt": "Sheet of exterior renders of the dome, the pool and the brick exhibition block."
+          },
+          {
+            "file": "novo-board-model.jpg",
+            "caption": "Physical model",
+            "alt": "Sheet of photographs of the physical model: the whole site on its base, the dome and the exhibition block."
+          }
+        ]
+      }
     ]
   },
   {
@@ -164,22 +517,71 @@
       "I led the design and coordinated drawings through construction, including the owner's three-storey villa on the same site."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Manikganj, Bangladesh"], ["Role", "Lead designer"], ["Site area", "6.8 acres"], ["Type", "Hospitality masterplan"]],
+    "spec": [
+      [
+        "Location",
+        "Manikganj, Bangladesh"
+      ],
+      [
+        "Role",
+        "Lead designer"
+      ],
+      [
+        "Site area",
+        "6.8 acres"
+      ],
+      [
+        "Type",
+        "Hospitality masterplan"
+      ]
+    ],
     "cover": "post-014-01.jpg",
     "coverAlt": "Aerial render of the resort showing the central lake ringed by cottages, lawns and a hotel block.",
     "heroCaption": "The scheme seen from the north",
     "groups": [
-      { "layout": "full", "sheet": false, "images": [
-        { "file": "post-014-02.jpg", "caption": "Site plan — the lake, cottages, amphitheatre and lawns", "alt": "Rendered site plan of the resort with the lake and floating bar at the centre, cottages to the west, an amphitheatre at the north end and lawns, a maze garden and sports court to the east." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-014-03.jpg", "caption": "Canopied walkway", "alt": "Render of a shaded walkway under white tensile canopies leading toward the hotel block." },
-        { "file": "post-014-04.jpg", "caption": "Floating bar and lake bridge", "alt": "Render of the thatched floating bar and timber bridge over the lake." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-014-05.jpg", "caption": "On site — garden walk and fountain", "alt": "Photograph of a paved garden path lined with young shrubs and lamp posts, leading to a circular fountain under mature trees." },
-        { "file": "post-014-06.jpg", "caption": "On site — garden paths and a completed building beyond", "alt": "Photograph of new planting and twin-lantern lamp posts along a garden path, with a white two-storey building behind." }
-      ] }
+      {
+        "layout": "full",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-014-02.jpg",
+            "caption": "Site plan — the lake, cottages, amphitheatre and lawns",
+            "alt": "Rendered site plan of the resort with the lake and floating bar at the centre, cottages to the west, an amphitheatre at the north end and lawns, a maze garden and sports court to the east."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-014-03.jpg",
+            "caption": "Canopied walkway",
+            "alt": "Render of a shaded walkway under white tensile canopies leading toward the hotel block."
+          },
+          {
+            "file": "post-014-04.jpg",
+            "caption": "Floating bar and lake bridge",
+            "alt": "Render of the thatched floating bar and timber bridge over the lake."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-014-05.jpg",
+            "caption": "On site — garden walk and fountain",
+            "alt": "Photograph of a paved garden path lined with young shrubs and lamp posts, leading to a circular fountain under mature trees."
+          },
+          {
+            "file": "post-014-06.jpg",
+            "caption": "On site — garden paths and a completed building beyond",
+            "alt": "Photograph of new planting and twin-lantern lamp posts along a garden path, with a white two-storey building behind."
+          }
+        ]
+      }
     ]
   },
   {
@@ -192,19 +594,80 @@
     "where": "Gulshan-1, Dhaka — a 17-storey mixed-use tower on a tight corner plot. Academic project, fifth year",
     "summary": "Fifth-year studio: a 17-storey mixed-use tower on a corner plot in Gulshan-1, with an opened-up base and a covered public forecourt.",
     "body": [
-      "The lower floors are cut back and opened up to give the street a covered public forecourt, with an exhibition gallery and restaurant at the base, rentable office floors above, and a gymnasium in the podium.",
-      "The drawing set includes site and floor plans from basement to roof, two full building sections, and external wall sections at roof, typical floor and basement."
+      "The lower floors are cut back and opened up to give the street a covered public forecourt and drop-off. Above it, an exhibition gallery wraps a top-lit atrium that looks down onto the forecourt, with a restaurant at the base, rentable office floors above and a gymnasium in the podium.",
+      "Upper floors step and curve at their edges, with planted terraces cut into the facade. The drawing set includes the site and ground-floor plans, floor plans from basement to roof, elevations, two full building sections, and external wall sections at roof, typical floor and basement."
     ],
     "credit": "Academic project, B.Arch fifth year, North South University.",
-    "spec": [["Location", "Gulshan-1, Dhaka"], ["Height", "17 storeys"], ["Plot", "20 katha / ~14,400 sq ft"], ["Type", "Mixed-use commercial"]],
-    "cover": "z-hero.jpg",
-    "coverAlt": "Street-level render of the tower at dusk with an open colonnaded base.",
-    "heroCaption": "Street approach",
+    "spec": [
+      [
+        "Location",
+        "Gulshan-1, Dhaka"
+      ],
+      [
+        "Height",
+        "17 storeys"
+      ],
+      [
+        "Plot",
+        "20 katha / ~14,400 sq ft"
+      ],
+      [
+        "Type",
+        "Mixed-use commercial"
+      ]
+    ],
+    "cover": "z-tower-1.jpg",
+    "coverAlt": "Render of the tower at dusk: stacked floors with curved balcony edges and planted terraces, rising from an opened-up base with cars in the forecourt.",
+    "heroCaption": "The tower from the street",
     "groups": [
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "z-plans.jpg", "caption": "Floor plans, basement to roof", "alt": "Sheet of floor plans from basement through roof level." },
-        { "file": "z-sections.jpg", "caption": "Sections AA' and BB'", "alt": "Two full building sections through the tower showing floor stacking and basement parking." }
-      ] }
+      {
+        "layout": "full",
+        "sheet": false,
+        "images": [
+          {
+            "file": "z-dropoff.jpg",
+            "caption": "Covered drop-off under the opened-up base",
+            "alt": "Render of cars at the covered drop-off beneath the raised floors, with glazed lobbies and steps leading in."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "z-atrium.jpg",
+            "caption": "Gallery around the atrium",
+            "alt": "Render of the top-lit atrium with an exhibition gallery on the upper level, looking down onto the drop-off."
+          },
+          {
+            "file": "z-tower-2.jpg",
+            "caption": "The glazed corner",
+            "alt": "Render of the tower from another corner at sunset: a dark glazed grid with planted terraces and curved balconies at the top."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": true,
+        "images": [
+          {
+            "file": "z-site-plan.jpg",
+            "caption": "Site and ground-floor plan",
+            "alt": "Sheet with the site plan on the road junction above the ground-floor plan with the drop-off."
+          },
+          {
+            "file": "z-floor-plans.jpg",
+            "caption": "Floor plans, basement to roof",
+            "alt": "Sheet of floor plans from basement through roof level, with a massing diagram in its setting."
+          },
+          {
+            "file": "z-board.jpg",
+            "caption": "Elevations, sections and views",
+            "alt": "Board with elevations, the two building sections, a wall section and a strip of renders."
+          }
+        ]
+      }
     ]
   },
   {
@@ -221,16 +684,49 @@
       "Work covered concept design, interior layouts, material selection and site supervision during construction."
     ],
     "credit": "",
-    "spec": [["Location", "Savar, Dhaka"], ["Client", "Private"], ["Scope", "Architecture, interiors, landscape"], ["Status", "In construction"]],
-    "cover": "vacation-hero.jpg",
-    "coverAlt": "Render of the house exterior with a colonnaded facade, curved pool and planted terraces.",
-    "heroCaption": "Garden elevation and pool",
+    "spec": [
+      [
+        "Location",
+        "Savar, Dhaka"
+      ],
+      [
+        "Client",
+        "Private"
+      ],
+      [
+        "Scope",
+        "Architecture, interiors, landscape"
+      ],
+      [
+        "Status",
+        "In construction"
+      ]
+    ],
+    "cover": "vacation-front.jpg",
+    "coverAlt": "Render of the house from the garden: white curved balconies and a round timber-lined roof canopy above a free-form pool, with lit glazed rooms at ground level.",
+    "heroCaption": "Garden front and pool",
     "groups": [
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "vacation-living.jpg", "caption": "Living room", "alt": "Interior render of the living room with marble feature wall and recessed lighting." },
-        { "file": "vacation-bedroom.jpg", "caption": "Bedroom", "alt": "Interior render of a bedroom with a circular wall feature and pendant lighting." },
-        { "file": "vacation-construction.jpg", "caption": "On site", "alt": "Site photograph of the house under construction showing the concrete frame and pool." }
-      ] }
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "vacation-living-2.jpg",
+            "caption": "Living room",
+            "alt": "Interior render of the living room with a marble television wall, a dark timber slat panel and a curved grey sofa."
+          },
+          {
+            "file": "vacation-bedroom-2.jpg",
+            "caption": "Bedroom",
+            "alt": "Interior render of a bedroom with a white panelled headboard wall, a circular wall feature and pendant lights."
+          },
+          {
+            "file": "vacation-site.jpg",
+            "caption": "On site",
+            "alt": "Site photograph of the house under construction: the concrete frame with curved balcony slabs and the round roof, beside the filled pool."
+          }
+        ]
+      }
     ]
   },
   {
@@ -241,25 +737,361 @@
     "year": "2023",
     "category": "Interiors",
     "where": "Uttara, Dhaka — full fit-out of the lower floor of a duplex, in a warm beige palette. Completed 2023",
-    "summary": "A full interior fit-out in Uttara, Dhaka — living room, bedrooms and bathrooms carried through in one warm beige palette.",
+    "summary": "A full interior fit-out in Uttara, Dhaka — living room, family lounge, master bedroom, dressing area and bathroom in one warm beige palette.",
     "body": [
-      "Drawings covered furniture layouts, ceiling and lighting plans, and joinery details for the living room, bedrooms and bathrooms, with the palette carried through joinery, stone and textiles."
+      "A full interior fit-out of the lower floor of a duplex in Uttara, Dhaka, for Lithee Group. The palette of warm beige, pale marble, dark timber and brass runs through every room.",
+      "The living room centres on a marble and timber television wall. Beside the stair opening, with its black curved railing, a family lounge sits under swagged curtains and a white coffered ceiling. The master bedroom has a glazed, gridded wardrobe wall under a round cove ceiling and chandelier, and opens to a dressing area and a bathroom with a freestanding tub, a rain shower and a laundry corner.",
+      "Drawings covered furniture layouts, ceiling and lighting plans, and joinery details for each room."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Uttara, Dhaka"], ["Client", "Private"], ["Scope", "Interior fit-out, one floor of a duplex"], ["Completed", "2023"]],
-    "cover": "post-008-01.jpg",
-    "coverAlt": "Interior render of the master bedroom with a glazed wardrobe wall and chandelier.",
+    "spec": [
+      [
+        "Location",
+        "Uttara, Dhaka"
+      ],
+      [
+        "Client",
+        "Lithee Group"
+      ],
+      [
+        "Scope",
+        "Interior fit-out, one floor of a duplex"
+      ],
+      [
+        "Completed",
+        "2023"
+      ]
+    ],
+    "cover": "uttara-01.jpg",
+    "coverAlt": "Interior render of the master bedroom with a glazed, gridded wardrobe wall, a round cove ceiling with a crystal chandelier and full-height curtains.",
     "heroCaption": "Master bedroom",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-008-02.jpg", "caption": "Living room", "alt": "Interior render of the living room with marble surround, television wall and curved seating." },
-        { "file": "post-008-03.jpg", "caption": "Bathroom", "alt": "Interior render of the bathroom with a freestanding tub, dark stone and a glazed shower." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "uttara-02.jpg",
+            "caption": "Living room",
+            "alt": "Interior render of the living room with a marble and dark timber television wall, a round mirror and a curved grey sofa around a low table."
+          },
+          {
+            "file": "uttara-06.jpg",
+            "caption": "Family lounge beside the stair opening",
+            "alt": "Interior render of the family lounge with beige sofas, a black curved railing around the stair opening, swagged curtains and a display case."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "uttara-04.jpg",
+            "caption": "Lounge under the swagged curtains",
+            "alt": "Interior render of a beige sofa and coffee table behind the stair railing, with swagged curtains, a spiral pendant and timber lamps."
+          },
+          {
+            "file": "uttara-05.jpg",
+            "caption": "The lounge and its coffered ceiling",
+            "alt": "Interior render of the lounge from a lower angle, showing the white coffered ceiling with cove lighting above the sofa and railing."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "uttara-07.jpg",
+            "caption": "Dressing area",
+            "alt": "Interior render of a dressing table with a round mirror, a leather bench and a sculptural stand by the curtained window."
+          },
+          {
+            "file": "uttara-03.jpg",
+            "caption": "Bathroom — vanity and tub",
+            "alt": "Interior render of the bathroom with a lit vanity niche, a glazed shower and a freestanding tub by the window."
+          },
+          {
+            "file": "uttara-08.jpg",
+            "caption": "Bathroom — rain shower and tub",
+            "alt": "Interior render of the bathroom with a rain shower in dark stone, a floating vanity, a freestanding tub and a branching chandelier."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "uttara-09.jpg",
+            "caption": "Bathroom toward the window",
+            "alt": "Interior render of the bathroom looking past the dark stone shower to the vanity, the tub and the washing machine."
+          },
+          {
+            "file": "uttara-10.jpg",
+            "caption": "Laundry corner and WC",
+            "alt": "Interior render of the laundry corner with a washing machine and lit shelving beside a marble-clad wall and a wall-hung WC."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": true,
+        "images": [
+          {
+            "file": "uttara-plan-2.jpg",
+            "caption": "Furnished plan — living room and stair",
+            "alt": "Furnished plan cut-out of the living room and the curved stair beside a small sitting area."
+          },
+          {
+            "file": "uttara-plan-3.jpg",
+            "caption": "Furnished plan — bedroom and lounge",
+            "alt": "Furnished plan cut-out of the master bedroom with its round rug and the family lounge beside it."
+          },
+          {
+            "file": "uttara-plan-1.jpg",
+            "caption": "Furnished plan — bathroom",
+            "alt": "Furnished plan cut-out of the bathroom with the shower, vanity, WC and freestanding tub."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "savar-duplex",
+    "no": "08",
+    "title": "Savar Duplex",
+    "location": "Savar, Dhaka",
+    "year": "",
+    "category": "Architecture",
+    "where": "Savar, Dhaka — a duplex house on a narrow plot, behind a street front of stone and timber louvres",
+    "summary": "A narrow-fronted house in Savar behind stone and timber louvres, with a parking hall, an open stair and a pool at its base.",
+    "body": [
+      "A house on a narrow plot in Savar, Dhaka. The street front is a stone-clad frame filled with vertical timber louvres and recessed balconies, set against a plain white flank wall, with planting along the roof terrace.",
+      "At ground level the car parks in a tall hall beside an open timber stair, with a planted water feature at its foot. Further in, a narrow pool runs beneath the stair toward a small planted court. The cutaway shows one bedroom suite: bedroom, walk-in wardrobe and bathroom in one compact plan."
+    ],
+    "credit": "",
+    "spec": [
+      [
+        "Location",
+        "Savar, Dhaka"
+      ],
+      [
+        "Role",
+        "Design, visualization"
+      ],
+      [
+        "Type",
+        "Duplex residence"
+      ],
+      [
+        "Shown",
+        "Street front, ground floor, bedroom suite"
+      ]
+    ],
+    "cover": "savar-02.jpg",
+    "coverAlt": "Render of the narrow house from the street: a stone-clad frame with vertical timber louvres beside a plain white flank wall, planting on the roof.",
+    "heroCaption": "The street front",
+    "groups": [
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "savar-01.jpg",
+            "caption": "Front elevation",
+            "alt": "Frontal render of the house: timber louvres and balconies in a stone frame above a gated entrance and garage door."
+          },
+          {
+            "file": "savar-03.jpg",
+            "caption": "Parking hall and stair",
+            "alt": "Render of the ground-floor hall with a parked car, an open timber stair with a steel railing and a planted water feature."
+          },
+          {
+            "file": "savar-04.jpg",
+            "caption": "Pool beneath the stair",
+            "alt": "Render of a narrow pool running beneath the timber stair, with a glass railing and a garden court beyond."
+          }
+        ]
+      },
+      {
+        "layout": "full",
+        "sheet": true,
+        "images": [
+          {
+            "file": "savar-05.jpg",
+            "caption": "Cutaway — bedroom suite",
+            "alt": "Cutaway axonometric of a bedroom with a timber floor, a slatted headboard wall, a walk-in wardrobe and a bathroom with a glazed shower."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gulshan-apartment",
+    "no": "09",
+    "title": "Gulshan-1 Apartment",
+    "location": "Gulshan-1, Dhaka",
+    "year": "",
+    "category": "Interiors",
+    "where": "Gulshan-1, Dhaka — interior design for an apartment: living and dining rooms, kitchen and bedrooms",
+    "summary": "An apartment in Gulshan-1 in white, warm grey and brown leather, from a moon-wall living room to the dining room, kitchen and bedrooms.",
+    "body": [
+      "Interior design for an apartment in Gulshan-1, Dhaka, in white, warm grey and brown leather.",
+      "The living room is built around a large circular moon panel set beside a marble television wall with open white shelving, facing a pair of tufted leather sofas. The dining table sits between the living room and an open kitchen wall that holds the refrigerator, washing machine and glazed crockery cabinets, with linear art panels on the walls around it.",
+      "In the bedrooms, full-height lacquered wardrobes, a walnut chevron headboard wall, dressing tables with oval mirrors and a desk corner under moon-and-star wall pieces give each room its own character within the one palette."
+    ],
+    "credit": "",
+    "spec": [
+      [
+        "Location",
+        "Gulshan-1, Dhaka"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Apartment interior"
+      ],
+      [
+        "Scope",
+        "Living, dining, kitchen, bedrooms"
+      ]
+    ],
+    "cover": "gulshan-01.jpg",
+    "coverAlt": "Render of the living room: a large grey moon panel and a marble television wall behind tufted brown leather sofas and a round glass coffee table.",
+    "heroCaption": "Living room — moon panel and media wall",
+    "groups": [
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-02.jpg",
+            "caption": "Media wall with the kitchen beyond",
+            "alt": "Render of the marble television wall framed by white shelving, the curve of the moon panel to the left and the kitchen to the right."
+          },
+          {
+            "file": "gulshan-03.jpg",
+            "caption": "Media wall from the sofa",
+            "alt": "Render of the television wall and display shelving from behind the leather sofa, under a black and brass pendant."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-04.jpg",
+            "caption": "Sofas toward the dining area",
+            "alt": "Render of the leather sofa and a round glass table in front of linear art panels, with dining chairs to the left."
+          },
+          {
+            "file": "gulshan-05.jpg",
+            "caption": "Dining area from the living room",
+            "alt": "Render of the dining table between curtained windows and panelled walls, the living room to the right."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-06.jpg",
+            "caption": "Dining table and kitchen wall",
+            "alt": "Render of the set dining table with the kitchen wall behind: a black refrigerator, a washing machine and white cabinets."
+          },
+          {
+            "file": "gulshan-07.jpg",
+            "caption": "Kitchen wall",
+            "alt": "Render of the open kitchen wall with glazed crockery cabinets, a steel refrigerator and a washing machine."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-08.jpg",
+            "caption": "Bedroom — walnut headboard wall",
+            "alt": "Render of a bedroom with a walnut chevron headboard wall, a wall-mounted television and a ring wall light."
+          },
+          {
+            "file": "gulshan-09.jpg",
+            "caption": "Bedroom wardrobes",
+            "alt": "Render of full-height white lacquered wardrobes with brass wall lights, a mirror and a timber door."
+          },
+          {
+            "file": "gulshan-10.jpg",
+            "caption": "Wardrobe and mirror from the bed",
+            "alt": "Render from the bed toward the white wardrobes, a tall mirror and the curtained window."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-11.jpg",
+            "caption": "Second bedroom",
+            "alt": "Render of a bedroom with grey lacquered wardrobes, a grey upholstered bed with red cushions and a checked throw."
+          },
+          {
+            "file": "gulshan-12.jpg",
+            "caption": "Bed and dressing table",
+            "alt": "Render of the bed against grey curtains, with a dressing table, an oval mirror and open shelving beside it."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-13.jpg",
+            "caption": "Wardrobe wall",
+            "alt": "Render of a full-height grey wardrobe wall with a mirror panel, a timber door and a wall clock."
+          },
+          {
+            "file": "gulshan-14.jpg",
+            "caption": "Desk and shelving",
+            "alt": "Render of a desk and dark open shelving beside the bed, with two timber doors."
+          },
+          {
+            "file": "gulshan-15.jpg",
+            "caption": "Dressing table beside the bed",
+            "alt": "Close render of the bed with red and checked cushions beside the dressing table and oval mirror."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "gulshan-16.jpg",
+            "caption": "Bedroom with moon-and-star wall pieces",
+            "alt": "Render of a bedroom with a grey bed, a red chair at a floating desk and moon and star ornaments on the wall."
+          },
+          {
+            "file": "gulshan-17.jpg",
+            "caption": "Desk corner",
+            "alt": "Render of the floating marble-topped desk and red chair beside grey wardrobes, with the bed in the foreground."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "bashundhara-rooftop",
-    "no": "08",
+    "no": "10",
     "title": "Bashundhara Rooftop and Entrance",
     "location": "Bashundhara R/A, Dhaka",
     "year": "2023–24",
@@ -272,45 +1104,150 @@
       "At street level the old gates and forecourt were reworked into a raised planter with a lit stone name plinth, and a glass reception box at the base of the stair. The reception and front yard have been built; the last three images are photographs of the finished work."
     ],
     "credit": "Project architect: Arman H. Amir, ZED Architecture & Construction.",
-    "spec": [["Location", "Bashundhara R/A, Dhaka"], ["Role", "Project architect"], ["Scope", "Rooftop, reception, front yard"], ["Office", "ZED Architecture & Construction"]],
+    "spec": [
+      [
+        "Location",
+        "Bashundhara R/A, Dhaka"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Scope",
+        "Rooftop, reception, front yard"
+      ],
+      [
+        "Office",
+        "ZED Architecture & Construction"
+      ]
+    ],
     "cover": "post-006-01.jpg",
     "coverAlt": "Render of the rooftop terrace by day, with a shade-sail pergola over a timber deck, a planted trellis wall and a black spiral stair beside the white stair house.",
     "heroCaption": "Rooftop terrace — pergola deck, trellis wall and spiral stair",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-006-02.jpg", "caption": "The pergola deck and barbecue", "alt": "Render of a timber deck under a slender steel pergola at the roof edge, with café tables, a barbecue and planters along the parapet." },
-        { "file": "post-006-03.jpg", "caption": "Shade sail over the dining deck", "alt": "Render of a resident hanging a birdcage under the fabric shade sail, with dining tables on the deck and the spiral stair beyond." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-006-04.jpg", "caption": "The terrace from the upper roof", "alt": "Elevated render of the whole rooftop, showing the checkerboard paving, pergola, planters and stair house." },
-        { "file": "post-016-01.jpg", "caption": "Stair house, ladder and spiral stair", "alt": "Render of the white stair house with orange doors, a perforated brick screen, a ladder and a black spiral stair to the upper roof." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-016-02.jpg", "caption": "The rooftop before", "alt": "Photograph of the existing rooftop: worn tiles, a water drum and an unfinished structure, with neighbouring apartment blocks behind." },
-        { "file": "post-016-03.jpg", "caption": "The same view, proposed", "alt": "Render of the same rooftop view with new paving, a glazed upper-roof room, the spiral stair and a dome skylight." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-006-05.jpg", "caption": "The terrace at night", "alt": "Night render of the rooftop with lit pendants under the pergola, residents in lounge chairs and the city skyline behind." },
-        { "file": "post-006-06.jpg", "caption": "Upper roof and spiral stair at night", "alt": "Night render looking toward the stair house and spiral stair, with a flowering wall and a hanging chair on the terrace." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-016-04.jpg", "caption": "The street front before", "alt": "Photograph of the building's ground floor before the work, with steel gates, a broken forecourt and building materials on the ground." },
-        { "file": "post-016-05.jpg", "caption": "Front yard, proposed", "alt": "Render of the new street front with a raised planter, a stone name plinth, grey paving and louvred gates." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-016-06.jpg", "caption": "Name plinth and planting", "alt": "Close render of the stone name plinth with the house number, set in tropical planting with bollard lights." },
-        { "file": "post-016-07.jpg", "caption": "Glass reception at the foot of the stair", "alt": "Render of a glass-walled reception room with lounge chairs, a hanging green wall over the stair and white stone floors." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-016-08.jpg", "caption": "Reception, as built", "alt": "Photograph of the finished glass reception with stone steps, a stone-clad stair wall and planting hanging from above." },
-        { "file": "post-016-09.jpg", "caption": "Stair wall and name plinth, as built", "alt": "Two photographs side by side: the lit stair with its stone-clad wall and green planting, and the name plinth against a green wall at night." },
-        { "file": "post-016-10.jpg", "caption": "Front yard at night, as built", "alt": "Night photograph of the finished front yard: a lit curved name plinth, a green wall with uplights and low planting in a black stone planter." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-006-02.jpg",
+            "caption": "The pergola deck and barbecue",
+            "alt": "Render of a timber deck under a slender steel pergola at the roof edge, with café tables, a barbecue and planters along the parapet."
+          },
+          {
+            "file": "post-006-03.jpg",
+            "caption": "Shade sail over the dining deck",
+            "alt": "Render of a resident hanging a birdcage under the fabric shade sail, with dining tables on the deck and the spiral stair beyond."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-006-04.jpg",
+            "caption": "The terrace from the upper roof",
+            "alt": "Elevated render of the whole rooftop, showing the checkerboard paving, pergola, planters and stair house."
+          },
+          {
+            "file": "post-016-01.jpg",
+            "caption": "Stair house, ladder and spiral stair",
+            "alt": "Render of the white stair house with orange doors, a perforated brick screen, a ladder and a black spiral stair to the upper roof."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-016-02.jpg",
+            "caption": "The rooftop before",
+            "alt": "Photograph of the existing rooftop: worn tiles, a water drum and an unfinished structure, with neighbouring apartment blocks behind."
+          },
+          {
+            "file": "post-016-03.jpg",
+            "caption": "The same view, proposed",
+            "alt": "Render of the same rooftop view with new paving, a glazed upper-roof room, the spiral stair and a dome skylight."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-006-05.jpg",
+            "caption": "The terrace at night",
+            "alt": "Night render of the rooftop with lit pendants under the pergola, residents in lounge chairs and the city skyline behind."
+          },
+          {
+            "file": "post-006-06.jpg",
+            "caption": "Upper roof and spiral stair at night",
+            "alt": "Night render looking toward the stair house and spiral stair, with a flowering wall and a hanging chair on the terrace."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-016-04.jpg",
+            "caption": "The street front before",
+            "alt": "Photograph of the building's ground floor before the work, with steel gates, a broken forecourt and building materials on the ground."
+          },
+          {
+            "file": "post-016-05.jpg",
+            "caption": "Front yard, proposed",
+            "alt": "Render of the new street front with a raised planter, a stone name plinth, grey paving and louvred gates."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-016-06.jpg",
+            "caption": "Name plinth and planting",
+            "alt": "Close render of the stone name plinth with the house number, set in tropical planting with bollard lights."
+          },
+          {
+            "file": "post-016-07.jpg",
+            "caption": "Glass reception at the foot of the stair",
+            "alt": "Render of a glass-walled reception room with lounge chairs, a hanging green wall over the stair and white stone floors."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-016-08.jpg",
+            "caption": "Reception, as built",
+            "alt": "Photograph of the finished glass reception with stone steps, a stone-clad stair wall and planting hanging from above."
+          },
+          {
+            "file": "post-016-09.jpg",
+            "caption": "Stair wall and name plinth, as built",
+            "alt": "Two photographs side by side: the lit stair with its stone-clad wall and green planting, and the name plinth against a green wall at night."
+          },
+          {
+            "file": "post-016-10.jpg",
+            "caption": "Front yard at night, as built",
+            "alt": "Night photograph of the finished front yard: a lit curved name plinth, a green wall with uplights and low planting in a black stone planter."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "jashore-apartment",
-    "no": "09",
+    "no": "11",
     "title": "Jashore Apartment",
     "location": "Jashore, Bangladesh",
     "year": "2023–24",
@@ -323,38 +1260,198 @@
       "The second bedroom pairs a warm stone feature wall with white shaker wardrobes, a built-in entry bench with coat hooks, a dressing table with an arched mirror, and a hanging egg chair by the window."
     ],
     "credit": "Project architect: Arman H. Amir, ZED Architecture & Construction.",
-    "spec": [["Location", "Jashore, Bangladesh"], ["Role", "Interior design, visualization"], ["Type", "Apartment interior"], ["Office", "ZED Architecture & Construction"]],
+    "spec": [
+      [
+        "Location",
+        "Jashore, Bangladesh"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Apartment interior"
+      ],
+      [
+        "Office",
+        "ZED Architecture & Construction"
+      ]
+    ],
     "cover": "post-001-04.jpg",
     "coverAlt": "Render of the dining area under a recessed white ceiling, with brown leather chairs, white panelled walls, a teal abstract painting and a walnut slatted ceiling over the entrance.",
     "heroCaption": "Dining area from the living room",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-001-01.jpg", "caption": "Living room media wall", "alt": "Render of the living room television wall in white marble between walnut slats, with a ring light and brass wall lights." },
-        { "file": "post-001-02.jpg", "caption": "Sofa and panelled wall", "alt": "Render of a long beige sofa beneath a large teal and rust painting set in white wall mouldings, with a smoked-glass partition to one side." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-001-05.jpg", "caption": "Dining table and pendant", "alt": "Render of a marble dining table with brass legs and leather chairs under a square tiered pendant light." },
-        { "file": "post-001-06.jpg", "caption": "Mirrored partition toward the bedrooms", "alt": "Render looking past the set dining table to a mirrored cabinet partition and the walnut bedroom doors." },
-        { "file": "post-001-07.jpg", "caption": "Dining and entrance", "alt": "Render of the dining area with the walnut entrance door, white panelling and a mirrored display cabinet." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-001-03.jpg", "caption": "Hall toward the dining room", "alt": "Render looking down a hall framed by angled walnut panels and brass lights toward the dining room." },
-        { "file": "post-001-08.jpg", "caption": "Study-bedroom wardrobes and desk", "alt": "Render of a bedroom with full-height cream wardrobes, an open lit bookshelf and a desk with red chairs." },
-        { "file": "post-001-09.jpg", "caption": "Study-bedroom toward the dressing area", "alt": "Render of the same bedroom looking past the desk to the wardrobes and a mirror-lit dressing area." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-003-01.jpg", "caption": "Second bedroom — wardrobes and entry bench", "alt": "Render of a bedroom wall of white shaker wardrobes with a built-in bench and coat hooks, a dressing table with an arched mirror and a stone-clad television wall." },
-        { "file": "post-003-02.jpg", "caption": "Second bedroom — bed and egg chair", "alt": "Render of the bed with red cushions, a hanging rattan egg chair by a full-height window and a modern chandelier." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-003-03.jpg", "caption": "Second bedroom from the window", "alt": "Render looking from the egg chair across the bed to the television wall, timber door and entry bench." },
-        { "file": "post-003-04.jpg", "caption": "Second bedroom — dressing table and bed", "alt": "Render of the bed against a curtained window, with the dressing table and arched mirror to one side." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-001-01.jpg",
+            "caption": "Living room media wall",
+            "alt": "Render of the living room television wall in white marble between walnut slats, with a ring light and brass wall lights."
+          },
+          {
+            "file": "post-001-02.jpg",
+            "caption": "Sofa and panelled wall",
+            "alt": "Render of a long beige sofa beneath a large teal and rust painting set in white wall mouldings, with a smoked-glass partition to one side."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-001-05.jpg",
+            "caption": "Dining table and pendant",
+            "alt": "Render of a marble dining table with brass legs and leather chairs under a square tiered pendant light."
+          },
+          {
+            "file": "post-001-06.jpg",
+            "caption": "Mirrored partition toward the bedrooms",
+            "alt": "Render looking past the set dining table to a mirrored cabinet partition and the walnut bedroom doors."
+          },
+          {
+            "file": "post-001-07.jpg",
+            "caption": "Dining and entrance",
+            "alt": "Render of the dining area with the walnut entrance door, white panelling and a mirrored display cabinet."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-001-03.jpg",
+            "caption": "Hall toward the dining room",
+            "alt": "Render looking down a hall framed by angled walnut panels and brass lights toward the dining room."
+          },
+          {
+            "file": "post-001-08.jpg",
+            "caption": "Study-bedroom wardrobes and desk",
+            "alt": "Render of a bedroom with full-height cream wardrobes, an open lit bookshelf and a desk with red chairs."
+          },
+          {
+            "file": "post-001-09.jpg",
+            "caption": "Study-bedroom toward the dressing area",
+            "alt": "Render of the same bedroom looking past the desk to the wardrobes and a mirror-lit dressing area."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-003-01.jpg",
+            "caption": "Second bedroom — wardrobes and entry bench",
+            "alt": "Render of a bedroom wall of white shaker wardrobes with a built-in bench and coat hooks, a dressing table with an arched mirror and a stone-clad television wall."
+          },
+          {
+            "file": "post-003-02.jpg",
+            "caption": "Second bedroom — bed and egg chair",
+            "alt": "Render of the bed with red cushions, a hanging rattan egg chair by a full-height window and a modern chandelier."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-003-03.jpg",
+            "caption": "Second bedroom from the window",
+            "alt": "Render looking from the egg chair across the bed to the television wall, timber door and entry bench."
+          },
+          {
+            "file": "post-003-04.jpg",
+            "caption": "Second bedroom — dressing table and bed",
+            "alt": "Render of the bed against a curtained window, with the dressing table and arched mirror to one side."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mirpur-kazipara-apartment",
+    "no": "12",
+    "title": "Kazipara Apartment",
+    "location": "Mirpur, Dhaka",
+    "year": "",
+    "category": "Interiors",
+    "where": "Kazipara, Mirpur, Dhaka — interior design for the living and dining rooms of an apartment",
+    "summary": "An apartment in Kazipara, Mirpur, in dark timber and white: a living room with a hanging egg chair and a dining room under sculptural lamps.",
+    "body": [
+      "Interior design for the living and dining rooms of an apartment in Kazipara, Mirpur, in dark-stained timber, white walls and soft brown upholstery.",
+      "The living room is framed by a faceted timber feature wall with a ring mirror and lit by a linear geometric chandelier; a hanging egg chair sits by the window, opposite the television wall. A gridded timber and glass partition separates it from the dining room, where an oval table runs between tall timber doors, geometric wall art and a pair of large woven disc floor lamps."
+    ],
+    "credit": "",
+    "spec": [
+      [
+        "Location",
+        "Kazipara, Mirpur, Dhaka"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Apartment interior"
+      ],
+      [
+        "Scope",
+        "Living and dining rooms"
+      ]
+    ],
+    "cover": "kazipara-01.jpg",
+    "coverAlt": "Render of the living room with a hanging black egg chair, a faceted timber wall with a ring mirror, a pale sofa and a linear geometric chandelier.",
+    "heroCaption": "Living room and egg chair",
+    "groups": [
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "kazipara-03.jpg",
+            "caption": "Living room from the entrance",
+            "alt": "Render from the entrance door across the living room to the television wall, the egg chair and the gridded glass partition."
+          },
+          {
+            "file": "kazipara-04.jpg",
+            "caption": "Television wall and egg chair",
+            "alt": "Render of the egg chair beside the television wall, a gallery of framed prints and the timber feature wall with a floor lamp."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "kazipara-02.jpg",
+            "caption": "Dining room and glazed partition",
+            "alt": "Render of the oval dining table in front of a gridded timber and glass partition, with mirrored arc art on the wall."
+          },
+          {
+            "file": "kazipara-05.jpg",
+            "caption": "Dining room and floor lamps",
+            "alt": "Render of the dining table under a recessed ceiling, with geometric wall art, woven disc floor lamps and a steel refrigerator."
+          },
+          {
+            "file": "kazipara-06.jpg",
+            "caption": "Dining room toward the timber doors",
+            "alt": "Render of the dining table between tall timber doors, with a shark sculpture on the sideboard and woven disc lamps."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "wari-old-dhaka",
-    "no": "10",
+    "no": "13",
     "title": "Wari Rooftop and Lobby",
     "location": "Wari, Old Dhaka",
     "year": "2022–23",
@@ -367,26 +1464,75 @@
       "Downstairs, the entrance is clad in large-format beige stone with black marble accents, with a band of rough-cut stone above the glazed reception office and a diamond-patterned feature wall at the lift lobby."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Wari, Old Dhaka"], ["Role", "Project architect"], ["Scope", "Rooftop terrace, entrance lobby"], ["Office", "Cornerstone Design Studio"]],
+    "spec": [
+      [
+        "Location",
+        "Wari, Old Dhaka"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Scope",
+        "Rooftop terrace, entrance lobby"
+      ],
+      [
+        "Office",
+        "Cornerstone Design Studio"
+      ]
+    ],
     "cover": "post-013-01.jpg",
     "coverAlt": "Night render of the rooftop dining area under a slatted white pergola hung with trailing plants, with café tables, a barbecue and lit planters along the parapet.",
     "heroCaption": "Rooftop dining under the pergola",
     "groups": [
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-013-02.jpg", "caption": "Pergola and service enclosure from above", "alt": "Elevated night render of the pergola, dining tables and a mesh enclosure at the corner of the roof." },
-        { "file": "post-013-03.jpg", "caption": "The roof and its stair houses", "alt": "Elevated night render of the roof with the white stair and tank houses, a green wall and lit planters along the parapet, city towers beyond." },
-        { "file": "post-013-04.jpg", "caption": "Oval path of floor lights", "alt": "Night render of the open roof deck with an oval band of paving and inset lights beside an arched wall." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-013-05.jpg", "caption": "Entrance and reception office", "alt": "Render of the ground-floor entrance in beige stone with black marble accents and a glazed reception office under a band of rough stone." },
-        { "file": "post-013-06.jpg", "caption": "Entrance toward the lift lobby", "alt": "Render of the entrance frontage with the reception office on the left and the lift lobby and feature wall on the right." },
-        { "file": "post-013-07.jpg", "caption": "Lift lobby feature wall", "alt": "Render of the lift lobby with a diamond-patterned stone and timber feature wall, a ring chandelier and black marble planters." }
-      ] }
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-013-02.jpg",
+            "caption": "Pergola and service enclosure from above",
+            "alt": "Elevated night render of the pergola, dining tables and a mesh enclosure at the corner of the roof."
+          },
+          {
+            "file": "post-013-03.jpg",
+            "caption": "The roof and its stair houses",
+            "alt": "Elevated night render of the roof with the white stair and tank houses, a green wall and lit planters along the parapet, city towers beyond."
+          },
+          {
+            "file": "post-013-04.jpg",
+            "caption": "Oval path of floor lights",
+            "alt": "Night render of the open roof deck with an oval band of paving and inset lights beside an arched wall."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-013-05.jpg",
+            "caption": "Entrance and reception office",
+            "alt": "Render of the ground-floor entrance in beige stone with black marble accents and a glazed reception office under a band of rough stone."
+          },
+          {
+            "file": "post-013-06.jpg",
+            "caption": "Entrance toward the lift lobby",
+            "alt": "Render of the entrance frontage with the reception office on the left and the lift lobby and feature wall on the right."
+          },
+          {
+            "file": "post-013-07.jpg",
+            "caption": "Lift lobby feature wall",
+            "alt": "Render of the lift lobby with a diamond-patterned stone and timber feature wall, a ring chandelier and black marble planters."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "khulna-residence",
-    "no": "11",
+    "no": "14",
     "title": "Khulna Residence",
     "location": "Khulna, Bangladesh",
     "year": "2023–24",
@@ -398,24 +1544,65 @@
       "The living room is organised around an arched alcove lined with botanical wallpaper, with a diagonal timber bookcase and a sculptural white lounge chair; the sitting area opposite is framed by a bevelled mirror wall in dark timber and brass. A long marble dining table runs beside a glazed display kitchen, and a family lounge finishes the plan with a gallery wall and a slatted timber media unit."
     ],
     "credit": "Project architect: Arman H. Amir, ZED Architecture & Construction.",
-    "spec": [["Location", "Khulna, Bangladesh"], ["Role", "Interior design, visualization"], ["Type", "Residential interior"], ["Office", "ZED Architecture & Construction"]],
+    "spec": [
+      [
+        "Location",
+        "Khulna, Bangladesh"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Residential interior"
+      ],
+      [
+        "Office",
+        "ZED Architecture & Construction"
+      ]
+    ],
     "cover": "post-012-01.jpg",
     "coverAlt": "Render of the living room with an arched alcove of leaf-pattern wallpaper, a mustard sofa, a white sculptural lounge chair and a diagonal timber bookcase.",
     "heroCaption": "Living room and arched alcove",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-012-02.jpg", "caption": "Mirror wall in timber and brass", "alt": "Render of a bevelled mirror wall framed in dark timber with brass lines, reflecting the living room, with a white lounge chair in front." },
-        { "file": "post-012-03.jpg", "caption": "Marble dining table and display kitchen", "alt": "Render of a long white marble dining table with brown chairs, a glass-fronted kitchen cabinet run and a ring pendant." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-012-04.jpg", "caption": "Display niche toward the dining room", "alt": "Render of a white wardrobe wall with curved display shelves, looking through to the dining room and kitchen." },
-        { "file": "post-012-05.jpg", "caption": "Family lounge", "alt": "Render of a family lounge with a grey sofa, a gallery wall of black and white prints and a slatted timber media unit." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-012-02.jpg",
+            "caption": "Mirror wall in timber and brass",
+            "alt": "Render of a bevelled mirror wall framed in dark timber with brass lines, reflecting the living room, with a white lounge chair in front."
+          },
+          {
+            "file": "post-012-03.jpg",
+            "caption": "Marble dining table and display kitchen",
+            "alt": "Render of a long white marble dining table with brown chairs, a glass-fronted kitchen cabinet run and a ring pendant."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-012-04.jpg",
+            "caption": "Display niche toward the dining room",
+            "alt": "Render of a white wardrobe wall with curved display shelves, looking through to the dining room and kitchen."
+          },
+          {
+            "file": "post-012-05.jpg",
+            "caption": "Family lounge",
+            "alt": "Render of a family lounge with a grey sofa, a gallery wall of black and white prints and a slatted timber media unit."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "bijoy-nagar-residence",
-    "no": "12",
+    "no": "15",
     "title": "Bijoy Nagar Residence",
     "location": "Bijoy Nagar, Dhaka",
     "year": "2022–23",
@@ -427,25 +1614,70 @@
       "Open black shelving frames the media wall and separates the living room from the dining area, which is seen through a gridded timber and glass screen. One joinery run along the dining wall holds the refrigerator, oven, washing machine and open storage beside a small breakfast table. In the bedroom a stone-clad panel carries the television, and a lit dressing niche is built in between the wardrobes."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Bijoy Nagar, Dhaka"], ["Role", "Interior design, visualization"], ["Type", "Apartment interior"], ["Office", "Cornerstone Design Studio"]],
+    "spec": [
+      [
+        "Location",
+        "Bijoy Nagar, Dhaka"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Apartment interior"
+      ],
+      [
+        "Office",
+        "Cornerstone Design Studio"
+      ]
+    ],
     "cover": "post-010-01.jpg",
     "coverAlt": "Render of the living room with a grey media wall framed by black open shelving, a mirrored ceiling panel and lounge chairs.",
     "heroCaption": "Living room and media wall",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-010-02.jpg", "caption": "Living room toward the dining area", "alt": "Render of lounge chairs and a coffee table in front of a gridded timber and glass screen that looks onto the dining table." },
-        { "file": "post-010-03.jpg", "caption": "Dining wall joinery", "alt": "Render of a dining wall of grey and black joinery holding a refrigerator, oven, washing machine and open shelves, beside a small marble table." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-010-04.jpg", "caption": "Bedroom television wall", "alt": "Render of a bedroom with a grey stone-clad television panel, a ring light and a floating black-topped dressing counter." },
-        { "file": "post-010-05.jpg", "caption": "Dressing niche between wardrobes", "alt": "Render of a lit timber dressing niche with a desk set between white wardrobes, a tall mirror and framed prints." },
-        { "file": "post-010-06.jpg", "caption": "Kitchen", "alt": "Render of an L-shaped white kitchen with black worktops, a marble-pattern backsplash and a steel range." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-010-02.jpg",
+            "caption": "Living room toward the dining area",
+            "alt": "Render of lounge chairs and a coffee table in front of a gridded timber and glass screen that looks onto the dining table."
+          },
+          {
+            "file": "post-010-03.jpg",
+            "caption": "Dining wall joinery",
+            "alt": "Render of a dining wall of grey and black joinery holding a refrigerator, oven, washing machine and open shelves, beside a small marble table."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-010-04.jpg",
+            "caption": "Bedroom television wall",
+            "alt": "Render of a bedroom with a grey stone-clad television panel, a ring light and a floating black-topped dressing counter."
+          },
+          {
+            "file": "post-010-05.jpg",
+            "caption": "Dressing niche between wardrobes",
+            "alt": "Render of a lit timber dressing niche with a desk set between white wardrobes, a tall mirror and framed prints."
+          },
+          {
+            "file": "post-010-06.jpg",
+            "caption": "Kitchen",
+            "alt": "Render of an L-shaped white kitchen with black worktops, a marble-pattern backsplash and a steel range."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "dhanmondi-apartments",
-    "no": "13",
+    "no": "16",
     "title": "Two Apartments, Dhanmondi",
     "location": "Dhanmondi, Dhaka",
     "year": "2023–24",
@@ -458,28 +1690,81 @@
       "The second is quieter: grey and white throughout, with moulded wall panels, a mirrored wall that doubles the room, a sculpted timber media console and a sheer-curtained window wall."
     ],
     "credit": "First apartment: joint venture between ZED Architecture & Construction and Boobun – Architecture & Construction; project architects Arman H. Amir and Asif Iqbal Khan. Second apartment: project architect Arman H. Amir, ZED Architecture & Construction.",
-    "spec": [["Location", "Dhanmondi, Dhaka"], ["Role", "Project architect"], ["Type", "Apartment interiors"], ["Office", "ZED Architecture & Construction, with Boobun"]],
+    "spec": [
+      [
+        "Location",
+        "Dhanmondi, Dhaka"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Type",
+        "Apartment interiors"
+      ],
+      [
+        "Office",
+        "ZED Architecture & Construction, with Boobun"
+      ]
+    ],
     "cover": "post-002-01.jpg",
     "coverAlt": "Render of a living room with terracotta sofas and lounge chairs, a black and white bird mural, a marble media wall with timber shelving and a globe-cluster pendant.",
     "heroCaption": "First apartment — living room and media wall",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-002-02.jpg", "caption": "Leaf mural and corner sofa", "alt": "Render of a terracotta corner sofa in front of a panelled wall with a pale leaf mural, an indoor tree and an armchair by the window." },
-        { "file": "post-002-03.jpg", "caption": "Living room through the folding doors", "alt": "Render looking through timber-framed folding glass doors at the sofa, ottoman and bird mural." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-002-04.jpg", "caption": "Lounge chairs and the doors to the dining area", "alt": "Render of two terracotta lounge chairs and a marble coffee table, with folding doors open to the dining area beyond." },
-        { "file": "post-002-05.jpg", "caption": "Toward the dining area", "alt": "Render from behind the sofa looking through the folding doors to the dining table and a white display cabinet." }
-      ] },
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-005-01.jpg", "caption": "Second apartment — living room", "alt": "Render of a grey and white living room with pale sofas, a glass coffee table, moulded wall panels and a mirrored wall." },
-        { "file": "post-005-02.jpg", "caption": "Second apartment — media wall", "alt": "Render of a panelled media wall with a wall-mounted television, a sculpted timber console and sheer curtains, mirrored wall to the right." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-002-02.jpg",
+            "caption": "Leaf mural and corner sofa",
+            "alt": "Render of a terracotta corner sofa in front of a panelled wall with a pale leaf mural, an indoor tree and an armchair by the window."
+          },
+          {
+            "file": "post-002-03.jpg",
+            "caption": "Living room through the folding doors",
+            "alt": "Render looking through timber-framed folding glass doors at the sofa, ottoman and bird mural."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-002-04.jpg",
+            "caption": "Lounge chairs and the doors to the dining area",
+            "alt": "Render of two terracotta lounge chairs and a marble coffee table, with folding doors open to the dining area beyond."
+          },
+          {
+            "file": "post-002-05.jpg",
+            "caption": "Toward the dining area",
+            "alt": "Render from behind the sofa looking through the folding doors to the dining table and a white display cabinet."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-005-01.jpg",
+            "caption": "Second apartment — living room",
+            "alt": "Render of a grey and white living room with pale sofas, a glass coffee table, moulded wall panels and a mirrored wall."
+          },
+          {
+            "file": "post-005-02.jpg",
+            "caption": "Second apartment — media wall",
+            "alt": "Render of a panelled media wall with a wall-mounted television, a sculpted timber console and sheer curtains, mirrored wall to the right."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "lcls-lawyers-chamber",
-    "no": "14",
+    "no": "17",
     "title": "LCLS Lawyer's Chamber",
     "location": "Gulshan-1, Dhaka",
     "year": "2023–24",
@@ -491,20 +1776,49 @@
       "The reception desk is a curved dark-timber counter with brass inlay and a black marble return, set against white walls and dark doors. Dark timber flooring, a low lounge sofa and framed landscape prints keep the waiting side calm."
     ],
     "credit": "Joint venture between ZED Architecture & Construction and Dreero.aec – Architecture, Engineering & Construction. Project architects: Arman H. Amir (IAB AA-681) and Tanmay Hassan (IAB AH-370).",
-    "spec": [["Location", "Gulshan-1, Dhaka"], ["Role", "Project architect"], ["Type", "Office reception"], ["Office", "ZED Architecture & Construction, with Dreero.aec"]],
-    "cover": "post-018-03.jpg",
+    "spec": [
+      [
+        "Location",
+        "Gulshan-1, Dhaka"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Type",
+        "Office reception"
+      ],
+      [
+        "Office",
+        "ZED Architecture & Construction, with Dreero.aec"
+      ]
+    ],
+    "cover": "lcls-01.jpg",
     "coverAlt": "Render of the reception desk, a curved dark-timber counter with brass lines and a black marble return, under a coffered barrel-vaulted ceiling with globe pendants.",
     "heroCaption": "Reception desk",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-018-01.jpg", "caption": "Waiting area and window wall", "alt": "Render of the waiting area with a long white sofa and armchairs beneath the vaulted ceiling, ending in a timber-framed window wall." },
-        { "file": "post-018-02.jpg", "caption": "From the entrance", "alt": "Render from the entrance door looking along the vaulted room to the seating and window wall, with a linear globe pendant overhead." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "lcls-03.jpg",
+            "caption": "Waiting area and window wall",
+            "alt": "Render of the waiting area with a long white sofa and armchairs beneath the vaulted ceiling, ending in a timber-framed window wall."
+          },
+          {
+            "file": "lcls-02.jpg",
+            "caption": "From the entrance",
+            "alt": "Render from the entrance door looking along the vaulted room to the seating and window wall, with a linear globe pendant overhead."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "uttara-residential-tower",
-    "no": "15",
+    "no": "18",
     "title": "Uttara Residential Building",
     "location": "Uttara, Dhaka",
     "year": "2022–23",
@@ -516,20 +1830,49 @@
       "The typical floor is a single three-bedroom apartment arranged around a central living and dining space, with the stair, lift and lobby grouped in one corner of the plan."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Uttara, Dhaka"], ["Role", "Project architect"], ["Type", "Residential building"], ["Office", "Cornerstone Design Studio"]],
+    "spec": [
+      [
+        "Location",
+        "Uttara, Dhaka"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Type",
+        "Residential building"
+      ],
+      [
+        "Office",
+        "Cornerstone Design Studio"
+      ]
+    ],
     "cover": "post-011-01.jpg",
     "coverAlt": "Render of the building from the street corner: a white frame of balconies beside a dark stone-clad frame with planted terraces, under an open roof pavilion.",
     "heroCaption": "Street elevation from the corner",
     "groups": [
-      { "layout": "g2", "sheet": false, "images": [
-        { "file": "post-011-02.jpg", "caption": "Front elevation", "alt": "Frontal render of the building showing the stacked balconies, the dark framed terraces with planting and the gated entrance at street level." },
-        { "file": "post-011-03.jpg", "caption": "Typical floor plan", "alt": "Typical floor plan with the stair, lift and lobby in one corner, a kitchen, living and dining space in the middle, and three bedrooms with three toilets." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "post-011-02.jpg",
+            "caption": "Front elevation",
+            "alt": "Frontal render of the building showing the stacked balconies, the dark framed terraces with planting and the gated entrance at street level."
+          },
+          {
+            "file": "post-011-03.jpg",
+            "caption": "Typical floor plan",
+            "alt": "Typical floor plan with the stair, lift and lobby in one corner, a kitchen, living and dining space in the middle, and three bedrooms with three toilets."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "green-school-rooftop",
-    "no": "16",
+    "no": "19",
     "title": "Green School Rooftops",
     "location": "Mohammadpur, Dhaka",
     "year": "2022–23",
@@ -541,25 +1884,70 @@
       "The larger roof, about 1,526 sq ft, is a rectangle around the stair house: a green play surface edged with a blue safety border, swings, a slide, climbing frames and a round play pit, with a long planted canopy for shade. The smaller roof, about 1,026 sq ft, follows an irregular edge beside a pitched-roof section of the building, with see-saws, swings and a shaded strip along its long side. Both are enclosed by a tall mesh safety fence above the parapet."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Mohammadpur, Dhaka"], ["Role", "Project architect"], ["Area", "1,026 and 1,526 sq ft"], ["Office", "Cornerstone Design Studio"]],
+    "spec": [
+      [
+        "Location",
+        "Mohammadpur, Dhaka"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Area",
+        "1,026 and 1,526 sq ft"
+      ],
+      [
+        "Office",
+        "Cornerstone Design Studio"
+      ]
+    ],
     "cover": "post-015-05.jpg",
     "coverAlt": "Axonometric of the larger rooftop: a green play surface around the white stair house, with a yellow slide, swings, a climbing frame and a tall mesh fence.",
     "heroCaption": "The larger rooftop, around the stair house",
     "groups": [
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "post-015-02.jpg", "caption": "Plan — larger rooftop, 1,526 sq ft", "alt": "Coloured, dimensioned plan of the rectangular rooftop with the stair house, play equipment, a long shade canopy and a blue safety border." },
-        { "file": "post-015-01.jpg", "caption": "Plan — smaller rooftop, 1,026 sq ft", "alt": "Coloured, dimensioned plan of the irregular rooftop with a pitched roof section at one end, a shade canopy and play equipment." }
-      ] },
-      { "layout": "g3", "sheet": true, "images": [
-        { "file": "post-015-03.jpg", "caption": "Larger rooftop from above", "alt": "Axonometric of the rectangular rooftop showing the stair house, swings, slide, play pit and canopy inside the mesh fence." },
-        { "file": "post-015-04.jpg", "caption": "Smaller rooftop from above", "alt": "Axonometric of the irregular rooftop with a red pitched roof at one end, a green canopy, see-saws and swings." },
-        { "file": "post-015-06.jpg", "caption": "Smaller rooftop from the other side", "alt": "Axonometric of the smaller rooftop seen from the pitched-roof end, with the canopy running along the fenced edge." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "post-015-02.jpg",
+            "caption": "Plan — larger rooftop, 1,526 sq ft",
+            "alt": "Coloured, dimensioned plan of the rectangular rooftop with the stair house, play equipment, a long shade canopy and a blue safety border."
+          },
+          {
+            "file": "post-015-01.jpg",
+            "caption": "Plan — smaller rooftop, 1,026 sq ft",
+            "alt": "Coloured, dimensioned plan of the irregular rooftop with a pitched roof section at one end, a shade canopy and play equipment."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": true,
+        "images": [
+          {
+            "file": "post-015-03.jpg",
+            "caption": "Larger rooftop from above",
+            "alt": "Axonometric of the rectangular rooftop showing the stair house, swings, slide, play pit and canopy inside the mesh fence."
+          },
+          {
+            "file": "post-015-04.jpg",
+            "caption": "Smaller rooftop from above",
+            "alt": "Axonometric of the irregular rooftop with a red pitched roof at one end, a green canopy, see-saws and swings."
+          },
+          {
+            "file": "post-015-06.jpg",
+            "caption": "Smaller rooftop from the other side",
+            "alt": "Axonometric of the smaller rooftop seen from the pitched-roof end, with the canopy running along the fenced edge."
+          }
+        ]
+      }
     ]
   },
   {
     "slug": "learning-space-interior",
-    "no": "17",
+    "no": "20",
     "title": "Noubahini School Library",
     "location": "Chattogram, Bangladesh",
     "year": "2022–23",
@@ -568,24 +1956,93 @@
     "summary": "A library for Bangladesh Noubahini School and College in Chattogram: four connected rooms for reading, group work and presentations.",
     "body": [
       "A library design for Bangladesh Noubahini School and College in Chattogram, planned as four rooms within one rectangular floor so that quiet reading, group work and presentations each have their own space.",
-      "One room is given to long reading tables. Another holds a green, branching shelf-and-bench island with hexagonal stools for younger readers. A third contains the issue desk and stacks, and the fourth is a projection area with curved, tiered timber seating around a round table. Timber shelving lines the perimeter walls throughout."
+      "One room is given to long reading tables. Another holds a green, branching shelf-and-bench island with hexagonal stools for younger readers. A third contains the issue desk and stacks, and the fourth is a projection area with curved built-in seating around a round table. Timber shelving lines the perimeter walls throughout."
     ],
     "credit": "Project architect: Arman H. Amir. Designed at Cornerstone Design Studio, which holds the rights to the drawings.",
-    "spec": [["Location", "Chattogram, Bangladesh"], ["Role", "Project architect"], ["Type", "School library interior"], ["Office", "Cornerstone Design Studio"]],
-    "cover": "post-009-02.jpg",
+    "spec": [
+      [
+        "Location",
+        "Chattogram, Bangladesh"
+      ],
+      [
+        "Role",
+        "Project architect"
+      ],
+      [
+        "Type",
+        "School library interior"
+      ],
+      [
+        "Office",
+        "Cornerstone Design Studio"
+      ]
+    ],
+    "cover": "navy-02.jpg",
     "coverAlt": "Cutaway axonometric of the library showing four rooms lined with timber bookshelves, a green branching reading island and a projection area with curved seating.",
     "heroCaption": "Cutaway axonometric — the four rooms",
     "groups": [
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "post-009-01.jpg", "caption": "The library from above", "alt": "Top-down cutaway of the four rooms: the green reading island, rows of reading tables, the issue desk and the projection area with curved seating." },
-        { "file": "post-009-03.jpg", "caption": "Reading tables and stacks", "alt": "Cutaway axonometric from the opposite corner showing long reading tables, the issue desk and perimeter bookshelves." },
-        { "file": "post-009-04.jpg", "caption": "Projection area and issue desk", "alt": "Cutaway axonometric showing the projection room with a screen and tiered timber seating beside the issue desk." }
-      ] }
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "navy-01.jpg",
+            "caption": "The library from above",
+            "alt": "Top-down cutaway of the four rooms: the green reading island, rows of reading tables, the issue desk and the projection area with curved seating around a round table."
+          },
+          {
+            "file": "navy-03.jpg",
+            "caption": "Reading tables and stacks",
+            "alt": "Cutaway axonometric from the opposite corner showing long reading tables, the green reading island and full-height perimeter bookshelves."
+          },
+          {
+            "file": "navy-04.jpg",
+            "caption": "Projection area and issue desk",
+            "alt": "Cutaway axonometric showing the projection room with a screen, curved seating and a round table beside the issue desk."
+          }
+        ]
+      }
     ]
   },
   {
+    "slug": "fujitec-elevator",
+    "no": "21",
+    "title": "Elevator Cabin Designs",
+    "location": "For FUJITEC, Japan",
+    "year": "",
+    "category": "Interiors",
+    "where": "Cabin interior concepts for FUJITEC, Japan — three finish options for an elevator cab",
+    "summary": "Elevator cabin interior concepts for FUJITEC: brushed steel, warm timber and black with gold, each in elevation and perspective.",
+    "body": [
+      "Cabin interior concepts prepared for FUJITEC, the Japanese elevator manufacturer. Three finish schemes — brushed stainless steel, a warm timber tone with copper trim, and black with gold accents — are each shown as flat wall elevations and in perspective, with a matching ceiling light panel and floor finish."
+    ],
+    "credit": "",
+    "spec": [
+      [
+        "Client",
+        "FUJITEC"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Elevator cabin interiors"
+      ],
+      [
+        "Scope",
+        "Three finish options"
+      ]
+    ],
+    "cover": "elevator-cabins.jpg",
+    "coverAlt": "Three elevator cabin finishes on white — brushed stainless steel, warm timber with copper trim, and black with gold — each shown as wall elevations and in perspective.",
+    "heroCaption": "Three cabin finishes, in elevation and perspective",
+    "groups": []
+  },
+  {
     "slug": "narayanganj-kitchen",
-    "no": "18",
+    "no": "22",
     "title": "Narayanganj Kitchen",
     "location": "College Road, Narayanganj",
     "year": "2023–24",
@@ -597,15 +2054,44 @@
       "The renders are sectional views through the room, one for each wall, used to check the cabinet runs, the appliances and the door and window positions together."
     ],
     "credit": "Project architect: Arman H. Amir, ZED Architecture & Construction.",
-    "spec": [["Location", "College Road, Narayanganj"], ["Role", "Interior design, visualization"], ["Type", "Kitchen remodel"], ["Office", "ZED Architecture & Construction"]],
+    "spec": [
+      [
+        "Location",
+        "College Road, Narayanganj"
+      ],
+      [
+        "Role",
+        "Interior design, visualization"
+      ],
+      [
+        "Type",
+        "Kitchen remodel"
+      ],
+      [
+        "Office",
+        "ZED Architecture & Construction"
+      ]
+    ],
     "cover": "post-004-01.jpg",
     "coverAlt": "Sectional render through the kitchen and the adjoining room, showing a black refrigerator, cream wall cabinets, a tall appliance unit with a microwave and a glass partition.",
     "heroCaption": "Section through the kitchen and the adjoining room",
     "groups": [
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "post-004-02.jpg", "caption": "Cooking wall", "alt": "Sectional render of the cooking wall with a hob, black worktop, patterned backsplash and glazed upper cabinets beside a doorway." },
-        { "file": "post-004-03.jpg", "caption": "Window wall and refrigerator", "alt": "Sectional render of the window wall with the sink, a stainless refrigerator and cream wall cabinets." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "post-004-02.jpg",
+            "caption": "Cooking wall",
+            "alt": "Sectional render of the cooking wall with a hob, black worktop, patterned backsplash and glazed upper cabinets beside a doorway."
+          },
+          {
+            "file": "post-004-03.jpg",
+            "caption": "Window wall and refrigerator",
+            "alt": "Sectional render of the window wall with the sink, a stainless refrigerator and cream wall cabinets."
+          }
+        ]
+      }
     ]
   }
 ]

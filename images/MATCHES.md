@@ -25,7 +25,6 @@ Match score = Pearson correlation of 64x36 greyscale thumbnails between the old 
 | adu-models/adu-z-board1.jpg | adu-z-board1.jpg | files/site-full/images/adu-z-board1.jpg | re-encoded old | - | 1600x2400, 585 KB |
 | adu-models/adu-z-board2.jpg | adu-z-board2.jpg | files/site-full/images/adu-z-board2.jpg | re-encoded old | - | 1600x2400, 317 KB |
 | adu-models/adu-z-hero.jpg | adu-z-hero.jpg | Project ADU/ADU Model Z - Interior & Exterior Render/Model Z - 6.png | original PNG | 0.9978 | 2400x1350, 550 KB |
-| drawing/burj-drawing.jpg | burj-drawing.jpg | files/site-full/images/burj-drawing.jpg | re-encoded old | - | 1463x2400, 483 KB |
 | frozen-ridge/fr-axon-exterior.jpg | fr-axon-exterior.jpg | Frozen Ridge Project/Renders/23.png | original PNG | 0.9998 | 2400x1350, 72 KB |
 | frozen-ridge/fr-axon-first.jpg | fr-axon-first.jpg | files/site-full/images/fr-axon-first.jpg | re-encoded old | - | 2400x1350, 144 KB |
 | frozen-ridge/fr-axon-ground.jpg | fr-axon-ground.jpg | files/site-full/images/fr-axon-ground.jpg | re-encoded old | - | 2400x1350, 125 KB |
@@ -51,31 +50,13 @@ Match score = Pearson correlation of 64x36 greyscale thumbnails between the old 
 | frozen-ridge/fr-stair-upper.jpg | fr-stair-upper.jpg | Frozen Ridge Project/Renders/10.png | original PNG | 0.9997 | 2400x1350, 104 KB |
 | frozen-ridge/fr-stair.jpg | fr-stair.jpg | Frozen Ridge Project/Renders/9.png | original PNG | 0.9998 | 2400x1350, 297 KB |
 | frozen-ridge/fr-tiles.jpg | fr-tiles.jpg | files/site-full/images/fr-tiles.jpg | re-encoded old | - | 2400x1800, 159 KB |
-| uttara-studio-apartment/interior-bath.jpg | interior-bath.jpg | files/site-full/images/interior-bath.jpg | re-encoded old | - | 1961x1215, 201 KB |
-| uttara-studio-apartment/interior-bedroom.jpg | interior-bedroom.jpg | files/site-full/images/interior-bedroom.jpg | re-encoded old | - | 2045x1270, 244 KB |
-| uttara-studio-apartment/interior-living.jpg | interior-living.jpg | files/site-full/images/interior-living.jpg | re-encoded old | - | 1566x977, 174 KB |
-| drawing/logos.jpg | logos.jpg | files/site-full/images/logos.jpg | re-encoded old | - | 2044x1195, 325 KB |
-| novo-theatre/novo-elevations.jpg | novo-elevations.jpg | files/site-full/images/novo-elevations.jpg | re-encoded old | - | 2041x1110, 110 KB |
 | novo-theatre/novo-hero.jpg | novo-hero.jpg | files/site-full/images/novo-hero.jpg | re-encoded old | - | 2041x472, 127 KB |
-| novo-theatre/novo-masterplan.jpg | novo-masterplan.jpg | files/site-full/images/novo-masterplan.jpg | re-encoded old | - | 2041x1410, 241 KB |
 | novo-theatre/novo-site.jpg | novo-site.jpg | files/site-full/images/novo-site.jpg | re-encoded old | - | 949x640, 73 KB |
-| drawing/photo-burjkhalifa.jpg | photo-burjkhalifa.jpg | files/site-full/images/photo-burjkhalifa.jpg | re-encoded old | - | 358x480, 26 KB |
 | drawing/photo-burjlake.jpg | photo-burjlake.jpg | files/site-full/images/photo-burjlake.jpg | re-encoded old | - | 682x386, 36 KB |
 | drawing/photo-gulmarg.jpg | photo-gulmarg.jpg | files/site-full/images/photo-gulmarg.jpg | re-encoded old | - | 1008x567, 93 KB |
 | drawing/photo-jamamasjid.jpg | photo-jamamasjid.jpg | files/site-full/images/photo-jamamasjid.jpg | re-encoded old | - | 836x309, 31 KB |
 | drawing/photo-rangamati.jpg | photo-rangamati.jpg | files/site-full/images/photo-rangamati.jpg | re-encoded old | - | 601x337, 19 KB |
 | drawing/photo-tajmahal.jpg | photo-tajmahal.jpg | files/site-full/images/photo-tajmahal.jpg | re-encoded old | - | 758x427, 45 KB |
-| green-farm-resort/resort-floating.jpg | resort-floating.jpg | files/site-full/images/resort-floating.jpg | re-encoded old | - | 2049x1270, 350 KB |
-| green-farm-resort/resort-hero.jpg | resort-hero.jpg | files/site-full/images/resort-hero.jpg | re-encoded old | - | 2040x1279, 290 KB |
-| green-farm-resort/resort-walkway.jpg | resort-walkway.jpg | files/site-full/images/resort-walkway.jpg | re-encoded old | - | 2050x1276, 308 KB |
-| drawing/sketch.jpg | sketch.jpg | files/site-full/images/sketch.jpg | re-encoded old | - | 1920x1070, 204 KB |
-| vacation-house/vacation-bedroom.jpg | vacation-bedroom.jpg | files/site-full/images/vacation-bedroom.jpg | re-encoded old | - | 983x610, 46 KB |
-| vacation-house/vacation-construction.jpg | vacation-construction.jpg | files/site-full/images/vacation-construction.jpg | re-encoded old | - | 768x626, 70 KB |
-| vacation-house/vacation-hero.jpg | vacation-hero.jpg | files/site-full/images/vacation-hero.jpg | re-encoded old | - | 1744x1080, 329 KB |
-| vacation-house/vacation-living.jpg | vacation-living.jpg | files/site-full/images/vacation-living.jpg | re-encoded old | - | 1157x720, 75 KB |
-| z-commercial-complex/z-hero.jpg | z-hero.jpg | files/site-full/images/z-hero.jpg | re-encoded old | - | 700x750, 77 KB |
-| z-commercial-complex/z-plans.jpg | z-plans.jpg | files/site-full/images/z-plans.jpg | re-encoded old | - | 2041x1405, 164 KB |
-| z-commercial-complex/z-sections.jpg | z-sections.jpg | files/site-full/images/z-sections.jpg | re-encoded old | - | 1225x1108, 129 KB |
 | jashore-apartment/post-001-01.jpg | - | Facebook - ZED/post-001-01.jpg | Facebook | - | 2000x1125, 212 KB |
 | jashore-apartment/post-001-02.jpg | - | Facebook - ZED/post-001-02.jpg | Facebook | - | 2000x1125, 175 KB |
 | jashore-apartment/post-001-03.jpg | - | Facebook - ZED/post-001-03.jpg | Facebook | - | 2000x1125, 219 KB |
@@ -105,13 +86,6 @@ Match score = Pearson correlation of 64x36 greyscale thumbnails between the old 
 | bashundhara-rooftop/post-006-04.jpg | - | Facebook - ZED/post-006-04.jpg | Facebook | - | 2000x1125, 424 KB |
 | bashundhara-rooftop/post-006-05.jpg | - | Facebook - ZED/post-006-05.jpg | Facebook | - | 2000x1125, 273 KB |
 | bashundhara-rooftop/post-006-06.jpg | - | Facebook - ZED/post-006-06.jpg | Facebook | - | 2000x1125, 267 KB |
-| uttara-studio-apartment/post-008-01.jpg | - | Facebook - ZED/post-008-01.jpg | Facebook | - | 2000x1125, 239 KB |
-| uttara-studio-apartment/post-008-02.jpg | - | Facebook - ZED/post-008-02.jpg | Facebook | - | 2000x1125, 230 KB |
-| uttara-studio-apartment/post-008-03.jpg | - | Facebook - ZED/post-008-03.jpg | Facebook | - | 2000x1125, 191 KB |
-| learning-space-interior/post-009-01.jpg | - | Facebook - ZED/post-009-01.jpg | Facebook | - | 2000x1125, 169 KB |
-| learning-space-interior/post-009-02.jpg | - | Facebook - ZED/post-009-02.jpg | Facebook | - | 2000x1125, 188 KB |
-| learning-space-interior/post-009-03.jpg | - | Facebook - ZED/post-009-03.jpg | Facebook | - | 2000x1125, 228 KB |
-| learning-space-interior/post-009-04.jpg | - | Facebook - ZED/post-009-04.jpg | Facebook | - | 2000x1125, 219 KB |
 | bijoy-nagar-residence/post-010-01.jpg | - | Facebook - ZED/post-010-01.jpg | Facebook | - | 1920x1080, 169 KB |
 | bijoy-nagar-residence/post-010-02.jpg | - | Facebook - ZED/post-010-02.jpg | Facebook | - | 1920x1080, 181 KB |
 | bijoy-nagar-residence/post-010-03.jpg | - | Facebook - ZED/post-010-03.jpg | Facebook | - | 1920x1080, 184 KB |
@@ -155,6 +129,85 @@ Match score = Pearson correlation of 64x36 greyscale thumbnails between the old 
 | bashundhara-rooftop/post-016-08.jpg | - | Facebook - ZED/post-016-08.jpg | Facebook | - | 2000x1125, 187 KB |
 | bashundhara-rooftop/post-016-09.jpg | - | Facebook - ZED/post-016-09.jpg | Facebook | - | 2000x1125, 471 KB |
 | bashundhara-rooftop/post-016-10.jpg | - | Facebook - ZED/post-016-10.jpg | Facebook | - | 2000x1125, 425 KB |
-| lcls-lawyers-chamber/post-018-01.jpg | - | Facebook - ZED/post-018-01.jpg | Facebook | - | 1920x1080, 131 KB |
-| lcls-lawyers-chamber/post-018-02.jpg | - | Facebook - ZED/post-018-02.jpg | Facebook | - | 1920x1080, 124 KB |
-| lcls-lawyers-chamber/post-018-03.jpg | - | Facebook - ZED/post-018-03.jpg | Facebook | - | 1920x1080, 114 KB |
+
+
+## Batch 2 (2026-10-06) — originals from `Portfolio Extra-Replacement Items/`
+
+Large = long side <= 2400px (<= 3400 for drawing sheets), never upscaled, mozjpeg progressive q82 (portrait q84, 4:5 crop), alpha flattened on white. Replaced files got new names (immutable cache).
+
+| Output | Replaces | Source used | Size |
+|---|---|---|---|
+| lcls-lawyers-chamber/lcls-01.jpg | post-018-03.jpg | LCLS Renders/1.png | 2160x1215, 154 KB |
+| lcls-lawyers-chamber/lcls-02.jpg | post-018-02.jpg | LCLS Renders/2.png | 2160x1215, 159 KB |
+| lcls-lawyers-chamber/lcls-03.jpg | post-018-01.jpg | LCLS Renders/3.png | 2160x1215, 174 KB |
+| learning-space-interior/navy-01.jpg | post-009-01.jpg | Navy School Renders/1.jpg | 2400x1340, 362 KB |
+| learning-space-interior/navy-02.jpg | post-009-02.jpg | Navy School Renders/2.jpg | 2400x1792, 476 KB |
+| learning-space-interior/navy-03.jpg | post-009-03.jpg | Navy School Renders/3.jpg | 2400x1340, 376 KB |
+| learning-space-interior/navy-04.jpg | post-009-04.jpg | Navy School Renders/4.jpg | 2400x1340, 321 KB |
+| uttara-studio-apartment/uttara-01.jpg | post-008-01.jpg | Lithee Group/R1 (1).tif | 2400x1350, 302 KB |
+| uttara-studio-apartment/uttara-02.jpg | post-008-02.jpg | Lithee Group/LR copy.jpg | 2160x1215, 272 KB |
+| uttara-studio-apartment/uttara-03.jpg | post-008-03.jpg | Lithee Group/R8.tif | 2160x1215, 218 KB |
+| uttara-studio-apartment/uttara-04.jpg | (new) | Uttara Project Additional Renders/2.png | 2160x1215, 180 KB |
+| uttara-studio-apartment/uttara-05.jpg | (new) | Uttara Project Additional Renders/3.png | 2160x1215, 164 KB |
+| uttara-studio-apartment/uttara-06.jpg | (new) | Lithee Group/2.png | 2160x1215, 195 KB |
+| uttara-studio-apartment/uttara-07.jpg | (new) | Uttara Project Additional Renders/R2.tif | 2160x1215, 300 KB |
+| uttara-studio-apartment/uttara-08.jpg | (new) | Uttara Project Additional Renders/R3.tif | 2160x1215, 237 KB |
+| uttara-studio-apartment/uttara-09.jpg | (new) | Uttara Project Additional Renders/R4.tif | 2160x1215, 231 KB |
+| uttara-studio-apartment/uttara-10.jpg | (new) | Uttara Project Additional Renders/R5.tif | 2160x1215, 199 KB |
+| uttara-studio-apartment/uttara-plan-1.jpg | (new) | Lithee Group/X1.png | 799x1058, 67 KB |
+| uttara-studio-apartment/uttara-plan-2.jpg | (new) | Lithee Group/X2.png | 1320x1157, 78 KB |
+| uttara-studio-apartment/uttara-plan-3.jpg | (new) | Lithee Group/X3.png | 1427x1091, 145 KB |
+| vacation-house/vacation-front.jpg | vacation-hero.jpg | Vacation house Renders/Building Front Render.jpg | 2400x1350, 420 KB |
+| vacation-house/vacation-living-2.jpg | vacation-living.jpg | Vacation house Renders/TCKI3876.JPG | 1280x720, 81 KB |
+| vacation-house/vacation-bedroom-2.jpg | vacation-bedroom.jpg | Vacation house Renders/VJZB0517.JPG | 1280x610, 61 KB |
+| vacation-house/vacation-site.jpg | vacation-construction.jpg | Vacation house Renders/WhatsApp Image 2023-02-20 at 17.41.13.jpg | 768x1024, 102 KB |
+| z-commercial-complex/z-tower-1.jpg | z-hero.jpg | Z-Commercial Complex/1.jpg | 1289x2400, 350 KB |
+| z-commercial-complex/z-tower-2.jpg | (new) | Z-Commercial Complex/2.jpg | 1610x2400, 459 KB |
+| z-commercial-complex/z-dropoff.jpg | (new) | Z-Commercial Complex/3.jpg | 2400x1340, 366 KB |
+| z-commercial-complex/z-atrium.jpg | (new) | Z-Commercial Complex/4.jpg | 2127x1187, 322 KB |
+| z-commercial-complex/z-site-plan.jpg | (new) | Z-Commercial Complex/g.jpg | 974x1401, 86 KB |
+| z-commercial-complex/z-floor-plans.jpg | z-plans.jpg | Z-Commercial Complex/h.jpg | 2041x1405, 173 KB |
+| z-commercial-complex/z-board.jpg | z-sections.jpg | Z-Commercial Complex/i.jpg | 2041x2790, 506 KB |
+| novo-theatre/novo-render-1.jpg | (new) | Thesis Render and Picture of the model/Render 1.png | 960x540, 90 KB |
+| novo-theatre/novo-render-2.jpg | (new) | Thesis Render and Picture of the model/Render 2.png | 960x540, 119 KB |
+| novo-theatre/novo-render-3.jpg | (new) | Thesis Render and Picture of the model/Render 3.jpg | 2358x1316, 582 KB |
+| novo-theatre/novo-board-renders.jpg | (new) | Thesis Render and Picture of the model/30.jpg | 2405x3400, 717 KB |
+| novo-theatre/novo-board-model.jpg | (new) | Thesis Render and Picture of the model/31.jpg | 2405x3400, 493 KB |
+| novo-theatre/novo-board-masterplan.jpg | novo-masterplan.jpg | Thesis Render and Picture of the model/e.jpg | 2041x1414, 252 KB |
+| novo-theatre/novo-board-elevations.jpg | novo-elevations.jpg | Thesis Render and Picture of the model/f.jpg | 2041x2790, 441 KB |
+| drawing/burj-drawing-2.jpg | burj-drawing.jpg | Sketch/Burj Khalifa New.jpg | 1855x2400, 289 KB |
+| drawing/sketch-2.jpg | sketch.jpg | Sketch/Sketch 2.jpg | 1920x1080, 203 KB |
+| drawing/logos-2.jpg | logos.jpg | Logo Design/Free_Concrete_Wall_Mockup.jpg | 2400x1465, 452 KB |
+| drawing/photo-burjkhalifa-2.jpg | photo-burjkhalifa.jpg | Photography/IMG_8567.jpg | 1349x2400, 509 KB |
+| savar-duplex/savar-01.jpg | (new) | Savar Duplex/1.jpg | 1694x2400, 648 KB |
+| savar-duplex/savar-02.jpg | (new) | Savar Duplex/2.jpg | 2400x1792, 704 KB |
+| savar-duplex/savar-03.jpg | (new) | Savar Duplex/3.jpg | 2400x1350, 372 KB |
+| savar-duplex/savar-04.jpg | (new) | Savar Duplex/4.jpg | 2400x1350, 321 KB |
+| savar-duplex/savar-05.jpg | (new) | Savar Duplex/5.jpg | 2400x1694, 207 KB |
+| gulshan-apartment/gulshan-01.jpg | (new) | Gulshan-1 Apartment Interior/19.png | 2400x1350, 339 KB |
+| gulshan-apartment/gulshan-02.jpg | (new) | Gulshan-1 Apartment Interior/20.png | 2400x1350, 265 KB |
+| gulshan-apartment/gulshan-03.jpg | (new) | Gulshan-1 Apartment Interior/22.png | 2400x1350, 273 KB |
+| gulshan-apartment/gulshan-04.jpg | (new) | Gulshan-1 Apartment Interior/21.png | 2400x1350, 301 KB |
+| gulshan-apartment/gulshan-05.jpg | (new) | Gulshan-1 Apartment Interior/16.png | 2400x1350, 279 KB |
+| gulshan-apartment/gulshan-06.jpg | (new) | Gulshan-1 Apartment Interior/15.png | 2400x1350, 304 KB |
+| gulshan-apartment/gulshan-07.jpg | (new) | Gulshan-1 Apartment Interior/17.png | 2400x1350, 243 KB |
+| gulshan-apartment/gulshan-08.jpg | (new) | Gulshan-1 Apartment Interior/3.png | 2400x1350, 255 KB |
+| gulshan-apartment/gulshan-09.jpg | (new) | Gulshan-1 Apartment Interior/1.png | 2400x1350, 199 KB |
+| gulshan-apartment/gulshan-10.jpg | (new) | Gulshan-1 Apartment Interior/2.png | 2400x1350, 235 KB |
+| gulshan-apartment/gulshan-11.jpg | (new) | Gulshan-1 Apartment Interior/7.png | 2400x1350, 251 KB |
+| gulshan-apartment/gulshan-12.jpg | (new) | Gulshan-1 Apartment Interior/8.png | 2400x1350, 254 KB |
+| gulshan-apartment/gulshan-13.jpg | (new) | Gulshan-1 Apartment Interior/6.png | 2400x1350, 200 KB |
+| gulshan-apartment/gulshan-14.jpg | (new) | Gulshan-1 Apartment Interior/9.png | 2400x1350, 205 KB |
+| gulshan-apartment/gulshan-15.jpg | (new) | Gulshan-1 Apartment Interior/10.png | 2400x1350, 327 KB |
+| gulshan-apartment/gulshan-16.jpg | (new) | Gulshan-1 Apartment Interior/11.png | 2400x1350, 200 KB |
+| gulshan-apartment/gulshan-17.jpg | (new) | Gulshan-1 Apartment Interior/12.png | 2400x1350, 185 KB |
+| mirpur-kazipara-apartment/kazipara-01.jpg | (new) | Mirpur, Kazipara Renders/R1.png | 1821x1215, 203 KB |
+| mirpur-kazipara-apartment/kazipara-02.jpg | (new) | Mirpur, Kazipara Renders/R2.png | 2160x1215, 247 KB |
+| mirpur-kazipara-apartment/kazipara-03.jpg | (new) | Mirpur, Kazipara Renders/R3.png | 2160x1215, 227 KB |
+| mirpur-kazipara-apartment/kazipara-04.jpg | (new) | Mirpur, Kazipara Renders/R4.png | 2124x1215, 248 KB |
+| mirpur-kazipara-apartment/kazipara-05.jpg | (new) | Mirpur, Kazipara Renders/R5.png | 2160x1215, 169 KB |
+| mirpur-kazipara-apartment/kazipara-06.jpg | (new) | Mirpur, Kazipara Renders/R6.png | 2160x1215, 222 KB |
+| fujitec-elevator/elevator-cabins.jpg | (new) | Elevator Design for FUJITEC Japan/Elevator.png | 2400x2009, 430 KB |
+| home/portrait.jpg | (new) | My Picture/Arman Hossain Amir.png | 1280x1600, 187 KB |
+
+Not used: `Lithee Group/R1 (1).tif` and `R8.tif` duplicate the same files in `Uttara Project Additional Renders/` (byte-identical); `Uttara Project Additional Renders/4.png` is a near-duplicate view of `Lithee Group/2.png` (used); `Gulshan-1 Apartment Interior/4.png` is a near-duplicate of `3.png` (used).

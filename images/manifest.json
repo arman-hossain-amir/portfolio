@@ -75,9 +75,141 @@
     "w": 2400,
     "h": 1350
   },
-  "drawing/burj-drawing.jpg": {
-    "w": 1463,
+  "bashundhara-rooftop/post-006-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-006-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-07.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-08.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-09.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bashundhara-rooftop/post-016-10.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "bijoy-nagar-residence/post-010-01.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-02.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-03.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-04.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-05.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "bijoy-nagar-residence/post-010-06.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "dhanmondi-apartments/post-002-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-002-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-005-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "dhanmondi-apartments/post-005-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "drawing/burj-drawing-2.jpg": {
+    "w": 1855,
     "h": 2400
+  },
+  "drawing/logos-2.jpg": {
+    "w": 2400,
+    "h": 1465
+  },
+  "drawing/photo-gulmarg.jpg": {
+    "w": 1008,
+    "h": 567
+  },
+  "drawing/photo-rangamati.jpg": {
+    "w": 601,
+    "h": 337
+  },
+  "drawing/sketch-2.jpg": {
+    "w": 1920,
+    "h": 1080
   },
   "frozen-ridge/fr-axon-exterior.jpg": {
     "w": 2400,
@@ -179,333 +311,9 @@
     "w": 2400,
     "h": 1800
   },
-  "uttara-studio-apartment/interior-bath.jpg": {
-    "w": 1961,
-    "h": 1215
-  },
-  "uttara-studio-apartment/interior-bedroom.jpg": {
-    "w": 2045,
-    "h": 1270
-  },
-  "uttara-studio-apartment/interior-living.jpg": {
-    "w": 1566,
-    "h": 977
-  },
-  "drawing/logos.jpg": {
-    "w": 2044,
-    "h": 1195
-  },
-  "novo-theatre/novo-elevations.jpg": {
-    "w": 2041,
-    "h": 1110
-  },
-  "novo-theatre/novo-hero.jpg": {
-    "w": 2041,
-    "h": 472
-  },
-  "novo-theatre/novo-masterplan.jpg": {
-    "w": 2041,
-    "h": 1410
-  },
-  "novo-theatre/novo-site.jpg": {
-    "w": 949,
-    "h": 640
-  },
-  "drawing/photo-burjkhalifa.jpg": {
-    "w": 358,
-    "h": 480
-  },
-  "drawing/photo-burjlake.jpg": {
-    "w": 682,
-    "h": 386
-  },
-  "drawing/photo-gulmarg.jpg": {
-    "w": 1008,
-    "h": 567
-  },
-  "drawing/photo-jamamasjid.jpg": {
-    "w": 836,
-    "h": 309
-  },
-  "drawing/photo-rangamati.jpg": {
-    "w": 601,
-    "h": 337
-  },
-  "drawing/photo-tajmahal.jpg": {
-    "w": 758,
-    "h": 427
-  },
-  "green-farm-resort/resort-floating.jpg": {
-    "w": 2049,
-    "h": 1270
-  },
-  "green-farm-resort/resort-hero.jpg": {
-    "w": 2040,
-    "h": 1279
-  },
-  "green-farm-resort/resort-walkway.jpg": {
-    "w": 2050,
-    "h": 1276
-  },
-  "drawing/sketch.jpg": {
-    "w": 1920,
-    "h": 1070
-  },
-  "vacation-house/vacation-bedroom.jpg": {
-    "w": 983,
-    "h": 610
-  },
-  "vacation-house/vacation-construction.jpg": {
-    "w": 768,
-    "h": 626
-  },
-  "vacation-house/vacation-hero.jpg": {
-    "w": 1744,
-    "h": 1080
-  },
-  "vacation-house/vacation-living.jpg": {
-    "w": 1157,
-    "h": 720
-  },
-  "z-commercial-complex/z-hero.jpg": {
-    "w": 700,
-    "h": 750
-  },
-  "z-commercial-complex/z-plans.jpg": {
-    "w": 2041,
-    "h": 1405
-  },
-  "z-commercial-complex/z-sections.jpg": {
-    "w": 1225,
-    "h": 1108
-  },
-  "jashore-apartment/post-001-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-04.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-05.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-06.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-07.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-08.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-001-09.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-002-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-002-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-002-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-002-04.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-002-05.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-003-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-003-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-003-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "jashore-apartment/post-003-04.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "narayanganj-kitchen/post-004-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "narayanganj-kitchen/post-004-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "narayanganj-kitchen/post-004-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-005-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "dhanmondi-apartments/post-005-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bashundhara-rooftop/post-006-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bashundhara-rooftop/post-006-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bashundhara-rooftop/post-006-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bashundhara-rooftop/post-006-04.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bashundhara-rooftop/post-006-05.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bashundhara-rooftop/post-006-06.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "uttara-studio-apartment/post-008-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "uttara-studio-apartment/post-008-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "uttara-studio-apartment/post-008-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "learning-space-interior/post-009-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "learning-space-interior/post-009-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "learning-space-interior/post-009-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "learning-space-interior/post-009-04.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "bijoy-nagar-residence/post-010-01.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-02.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-03.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-04.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-05.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "bijoy-nagar-residence/post-010-06.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "uttara-residential-tower/post-011-01.jpg": {
-    "w": 1414,
-    "h": 2000
-  },
-  "uttara-residential-tower/post-011-02.jpg": {
-    "w": 1414,
-    "h": 2000
-  },
-  "uttara-residential-tower/post-011-03.jpg": {
-    "w": 1414,
-    "h": 2000
-  },
-  "khulna-residence/post-012-01.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "khulna-residence/post-012-02.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "khulna-residence/post-012-03.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "khulna-residence/post-012-04.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "khulna-residence/post-012-05.jpg": {
-    "w": 1920,
-    "h": 1080
-  },
-  "wari-old-dhaka/post-013-01.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "wari-old-dhaka/post-013-02.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "wari-old-dhaka/post-013-03.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "wari-old-dhaka/post-013-04.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "wari-old-dhaka/post-013-05.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "wari-old-dhaka/post-013-06.jpg": {
-    "w": 2000,
-    "h": 1125
-  },
-  "wari-old-dhaka/post-013-07.jpg": {
-    "w": 2000,
-    "h": 1125
+  "fujitec-elevator/elevator-cabins.jpg": {
+    "w": 2400,
+    "h": 2009
   },
   "green-farm-resort/post-014-01.jpg": {
     "w": 2000,
@@ -555,56 +363,436 @@
     "w": 2000,
     "h": 1380
   },
-  "bashundhara-rooftop/post-016-01.jpg": {
+  "gulshan-apartment/gulshan-01.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-02.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-03.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-04.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-05.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-06.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-07.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-08.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-09.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-10.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-11.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-12.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-13.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-14.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-15.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-16.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "gulshan-apartment/gulshan-17.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "home/portrait.jpg": {
+    "w": 1280,
+    "h": 1600
+  },
+  "jashore-apartment/post-001-01.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-02.jpg": {
+  "jashore-apartment/post-001-02.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-03.jpg": {
+  "jashore-apartment/post-001-03.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-04.jpg": {
+  "jashore-apartment/post-001-04.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-05.jpg": {
+  "jashore-apartment/post-001-05.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-06.jpg": {
+  "jashore-apartment/post-001-06.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-07.jpg": {
+  "jashore-apartment/post-001-07.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-08.jpg": {
+  "jashore-apartment/post-001-08.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-09.jpg": {
+  "jashore-apartment/post-001-09.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "bashundhara-rooftop/post-016-10.jpg": {
+  "jashore-apartment/post-003-01.jpg": {
     "w": 2000,
     "h": 1125
   },
-  "lcls-lawyers-chamber/post-018-01.jpg": {
+  "jashore-apartment/post-003-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-003-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "jashore-apartment/post-003-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "khulna-residence/post-012-01.jpg": {
     "w": 1920,
     "h": 1080
   },
-  "lcls-lawyers-chamber/post-018-02.jpg": {
+  "khulna-residence/post-012-02.jpg": {
     "w": 1920,
     "h": 1080
   },
-  "lcls-lawyers-chamber/post-018-03.jpg": {
+  "khulna-residence/post-012-03.jpg": {
     "w": 1920,
     "h": 1080
+  },
+  "khulna-residence/post-012-04.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "khulna-residence/post-012-05.jpg": {
+    "w": 1920,
+    "h": 1080
+  },
+  "lcls-lawyers-chamber/lcls-01.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "lcls-lawyers-chamber/lcls-02.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "lcls-lawyers-chamber/lcls-03.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "learning-space-interior/navy-01.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "learning-space-interior/navy-02.jpg": {
+    "w": 2400,
+    "h": 1792
+  },
+  "learning-space-interior/navy-03.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "learning-space-interior/navy-04.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "mirpur-kazipara-apartment/kazipara-01.jpg": {
+    "w": 1821,
+    "h": 1215
+  },
+  "mirpur-kazipara-apartment/kazipara-02.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "mirpur-kazipara-apartment/kazipara-03.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "mirpur-kazipara-apartment/kazipara-04.jpg": {
+    "w": 2124,
+    "h": 1215
+  },
+  "mirpur-kazipara-apartment/kazipara-05.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "mirpur-kazipara-apartment/kazipara-06.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "narayanganj-kitchen/post-004-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "narayanganj-kitchen/post-004-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "narayanganj-kitchen/post-004-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "novo-theatre/novo-board-elevations.jpg": {
+    "w": 2041,
+    "h": 2790
+  },
+  "novo-theatre/novo-board-masterplan.jpg": {
+    "w": 2041,
+    "h": 1414
+  },
+  "novo-theatre/novo-board-model.jpg": {
+    "w": 2405,
+    "h": 3400
+  },
+  "novo-theatre/novo-board-renders.jpg": {
+    "w": 2405,
+    "h": 3400
+  },
+  "novo-theatre/novo-hero.jpg": {
+    "w": 2041,
+    "h": 472
+  },
+  "novo-theatre/novo-render-1.jpg": {
+    "w": 960,
+    "h": 540
+  },
+  "novo-theatre/novo-render-2.jpg": {
+    "w": 960,
+    "h": 540
+  },
+  "novo-theatre/novo-render-3.jpg": {
+    "w": 2358,
+    "h": 1316
+  },
+  "novo-theatre/novo-site.jpg": {
+    "w": 949,
+    "h": 640
+  },
+  "savar-duplex/savar-01.jpg": {
+    "w": 1694,
+    "h": 2400
+  },
+  "savar-duplex/savar-02.jpg": {
+    "w": 2400,
+    "h": 1792
+  },
+  "savar-duplex/savar-03.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "savar-duplex/savar-04.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "savar-duplex/savar-05.jpg": {
+    "w": 2400,
+    "h": 1694
+  },
+  "uttara-residential-tower/post-011-01.jpg": {
+    "w": 1414,
+    "h": 2000
+  },
+  "uttara-residential-tower/post-011-02.jpg": {
+    "w": 1414,
+    "h": 2000
+  },
+  "uttara-residential-tower/post-011-03.jpg": {
+    "w": 1414,
+    "h": 2000
+  },
+  "uttara-studio-apartment/uttara-01.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "uttara-studio-apartment/uttara-02.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-03.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-04.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-05.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-06.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-07.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-08.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-09.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-10.jpg": {
+    "w": 2160,
+    "h": 1215
+  },
+  "uttara-studio-apartment/uttara-plan-1.jpg": {
+    "w": 799,
+    "h": 1058
+  },
+  "uttara-studio-apartment/uttara-plan-2.jpg": {
+    "w": 1320,
+    "h": 1157
+  },
+  "uttara-studio-apartment/uttara-plan-3.jpg": {
+    "w": 1427,
+    "h": 1091
+  },
+  "vacation-house/vacation-bedroom-2.jpg": {
+    "w": 1280,
+    "h": 610
+  },
+  "vacation-house/vacation-front.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "vacation-house/vacation-living-2.jpg": {
+    "w": 1280,
+    "h": 720
+  },
+  "vacation-house/vacation-site.jpg": {
+    "w": 768,
+    "h": 1024
+  },
+  "wari-old-dhaka/post-013-01.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-02.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-03.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-04.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-05.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-06.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "wari-old-dhaka/post-013-07.jpg": {
+    "w": 2000,
+    "h": 1125
+  },
+  "z-commercial-complex/z-atrium.jpg": {
+    "w": 2127,
+    "h": 1187
+  },
+  "z-commercial-complex/z-board.jpg": {
+    "w": 2041,
+    "h": 2790
+  },
+  "z-commercial-complex/z-dropoff.jpg": {
+    "w": 2400,
+    "h": 1340
+  },
+  "z-commercial-complex/z-floor-plans.jpg": {
+    "w": 2041,
+    "h": 1405
+  },
+  "z-commercial-complex/z-site-plan.jpg": {
+    "w": 974,
+    "h": 1401
+  },
+  "z-commercial-complex/z-tower-1.jpg": {
+    "w": 1289,
+    "h": 2400
+  },
+  "z-commercial-complex/z-tower-2.jpg": {
+    "w": 1610,
+    "h": 2400
+  },
+  "drawing/photo-jamamasjid-2.jpg": {
+    "w": 2400,
+    "h": 887
+  },
+  "drawing/photo-adalaj.jpg": {
+    "w": 1801,
+    "h": 2400
+  },
+  "drawing/photo-tajmahal-2.jpg": {
+    "w": 2400,
+    "h": 1350
+  },
+  "drawing/photo-burjkhalifa-3.jpg": {
+    "w": 1771,
+    "h": 2400
+  },
+  "drawing/photo-dubaimarina.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "drawing/photo-chameleon.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "drawing/photo-kashmir.jpg": {
+    "w": 2400,
+    "h": 1800
+  },
+  "drawing/photo-pittsburgh.jpg": {
+    "w": 2400,
+    "h": 1350
   }
 }

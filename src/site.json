@@ -2,12 +2,24 @@
   "url": "https://arman-hossain-amir.vercel.app",
   "hero": {
     "name": "Arman Hossain Amir",
-    "role": "Architectural designer and project coordinator. Six years of practice in Dhaka, now designing housing and interiors for New York.",
+    "role": "Architectural designer and project coordinator with six years of practice, designing housing and interiors in New York.",
     "dims": [
-      ["Based", "Queens, New York"],
-      ["Education", "B.Arch 2019 · M.S. Project Management 2026"],
-      ["Available", "January 2027"],
-      ["Projects", "Eighteen selected"]
+      [
+        "Based",
+        "Queens, New York"
+      ],
+      [
+        "Education",
+        "B.Arch 2019 · M.S. Project Management 2026"
+      ],
+      [
+        "Available",
+        "January 2027"
+      ],
+      [
+        "Projects",
+        "Twenty-two selected"
+      ]
     ]
   },
   "heroImage": {
@@ -20,7 +32,11 @@
   },
   "practice": {
     "title": "Practice",
-    "lead": "From drafting in Dhaka to permit sets in New York.",
+    "lead": "From construction drawings to permit sets in New York.",
+    "portrait": {
+      "file": "home/portrait.jpg",
+      "alt": "Portrait of Arman Hossain Amir"
+    },
     "paragraphs": [
       "I trained as an architect at North South University in Dhaka and spent six years in practice there, moving from producing construction documents to leading projects and running site supervision. Most of that work was residential, interior and hospitality — the kind of project where the drawings have to survive contact with a real contractor on a real site.",
       "I moved to the United States to study project management at Northeastern University, learning the scheduling, budgeting and resource-planning side of the same work. At Quantum Design & Safety in New York I designed three accessory dwelling units for the city's pre-approved plan library, produced the full interior drawing set for a single-family house upstate, and coordinated site-specific safety plans and egress drawings for city construction projects — back in front of code, drawings and inspectors, this time under the New York City Department of Buildings rather than Rajuk.",
@@ -28,12 +44,36 @@
       "I work in AutoCAD, Revit, SketchUp and Rhino, render in Lumion, and schedule in Microsoft Project. I speak English and Bengali fluently and conversational Hindi."
     ],
     "cv": [
-      ["2026", "M.S. Project Management", "Northeastern University, Boston — December 2026"],
-      ["2026", "Project Management Coordinator", "Quantum Design & Safety LLC, New York"],
-      ["2023–24", "Architect", "ZED Architecture & Construction, Dhaka"],
-      ["2022–23", "Architect", "Cornerstone Design Studio, Dhaka"],
-      ["2020–22", "Architect", "Dreero.aec, Dhaka"],
-      ["2019", "B.Arch", "North South University, Dhaka"]
+      [
+        "2026",
+        "M.S. Project Management",
+        "Northeastern University, Boston — December 2026"
+      ],
+      [
+        "2026",
+        "Project Management Coordinator",
+        "Quantum Design & Safety LLC, New York"
+      ],
+      [
+        "2023–24",
+        "Architect",
+        "ZED Architecture & Construction, Dhaka"
+      ],
+      [
+        "2022–23",
+        "Architect",
+        "Cornerstone Design Studio, Dhaka"
+      ],
+      [
+        "2020–22",
+        "Architect",
+        "Dreero.aec, Dhaka"
+      ],
+      [
+        "2019",
+        "B.Arch",
+        "North South University, Dhaka"
+      ]
     ]
   },
   "drawing": {
@@ -41,31 +81,143 @@
     "title": "Drawing & photography",
     "where": "Hand work, identity design and travel photographs",
     "groups": [
-      { "layout": "g2", "sheet": true, "images": [
-        { "file": "burj-drawing.jpg", "caption": "Burj Khalifa — graphite study", "alt": "Stipple pencil drawing of the Burj Khalifa rising out of low cloud." },
-        { "file": "sketch.jpg", "caption": "Perspective sketch — stacked housing", "alt": "Pencil perspective sketch of a stacked modular apartment building." }
-      ] },
-      { "layout": "full", "sheet": false, "images": [
-        { "file": "logos.jpg", "caption": "Identity design for eight clients", "alt": "Grid of eight logo designs mounted on a concrete wall." }
-      ] },
-      { "layout": "g3", "sheet": false, "images": [
-        { "file": "photo-jamamasjid.jpg", "caption": "Jama Masjid, New Delhi — 2017", "alt": "Jama Masjid Gate No. 1 at dusk, New Delhi." },
-        { "file": "photo-tajmahal.jpg", "caption": "Taj Mahal, Agra — 2017", "alt": "The Taj Mahal reflected in its water channel, Agra." },
-        { "file": "photo-gulmarg.jpg", "caption": "Gulmarg, Kashmir — 2022", "alt": "Snow-covered valley and mountains at Gulmarg, Kashmir." },
-        { "file": "photo-rangamati.jpg", "caption": "Rangamati, Bangladesh — 2020", "alt": "Sunset over the lake at Rangamati, Bangladesh." },
-        { "file": "photo-burjlake.jpg", "caption": "Burj Lake, Dubai — 2023", "alt": "Dubai skyline at night reflected in the Burj Lake." },
-        { "file": "photo-burjkhalifa.jpg", "caption": "Burj Khalifa, Dubai — 2023", "alt": "The Burj Khalifa lit at night, seen from street level." }
-      ] }
+      {
+        "layout": "g2",
+        "sheet": true,
+        "images": [
+          {
+            "file": "burj-drawing-2.jpg",
+            "caption": "Burj Khalifa — graphite study",
+            "alt": "Pencil drawing of the Burj Khalifa rising out of low cloud."
+          },
+          {
+            "file": "sketch-2.jpg",
+            "caption": "Perspective sketch — stacked housing",
+            "alt": "Pencil perspective sketch of a stacked modular apartment building."
+          }
+        ]
+      },
+      {
+        "layout": "full",
+        "sheet": false,
+        "images": [
+          {
+            "file": "logos-2.jpg",
+            "caption": "Identity design for eight clients",
+            "alt": "Grid of eight logo designs mounted on a concrete wall."
+          }
+        ]
+      },
+      {
+        "layout": "full",
+        "sheet": false,
+        "images": [
+          {
+            "file": "photo-jamamasjid-2.jpg",
+            "caption": "Jama Masjid, New Delhi — 2017",
+            "alt": "Panorama of the red sandstone gateway and minarets of the Jama Masjid, New Delhi."
+          }
+        ]
+      },
+      {
+        "layout": "g3",
+        "sheet": false,
+        "images": [
+          {
+            "file": "photo-adalaj.jpg",
+            "caption": "Adalaj Stepwell, Gujarat — 2017",
+            "alt": "Looking up through the carved stone galleries of the Adalaj stepwell toward the light well."
+          },
+          {
+            "file": "photo-tajmahal-2.jpg",
+            "caption": "Taj Mahal, Agra — 2017",
+            "alt": "The Taj Mahal at the end of its water channel, framed by cypress trees."
+          },
+          {
+            "file": "photo-burjkhalifa-3.jpg",
+            "caption": "Burj Khalifa, Dubai — 2023",
+            "alt": "The Burj Khalifa lit at night, seen from below with the towers of Downtown Dubai around it."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "photo-dubaimarina.jpg",
+            "caption": "Dubai Marina — 2023",
+            "alt": "Dubai Marina at night, a lit bridge and towers reflected in the water."
+          },
+          {
+            "file": "photo-chameleon.jpg",
+            "caption": "Chameleon, Dubai — 2023",
+            "alt": "A turquoise chameleon on a branch among green leaves and magenta orchids."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "photo-gulmarg.jpg",
+            "caption": "Gulmarg, Kashmir — 2022",
+            "alt": "Snow-covered valley and mountains at Gulmarg, Kashmir."
+          },
+          {
+            "file": "photo-rangamati.jpg",
+            "caption": "Rangamati, Bangladesh — 2020",
+            "alt": "Sunset over the lake at Rangamati, Bangladesh."
+          }
+        ]
+      },
+      {
+        "layout": "g2",
+        "sheet": false,
+        "images": [
+          {
+            "file": "photo-kashmir.jpg",
+            "caption": "Apple orchard, Kashmir — 2022",
+            "alt": "A small child in a knitted hood holding up two apples in an orchard in Kashmir."
+          },
+          {
+            "file": "photo-pittsburgh.jpg",
+            "caption": "Pittsburgh, Pennsylvania — 2025",
+            "alt": "A brick house with a bay window and porch steps in Pittsburgh."
+          }
+        ]
+      }
     ]
   },
   "contact": {
     "heading": "Available for full-time work from January 2027.",
     "lines": [
-      ["Email", "zishan.arman@gmail.com", "mailto:zishan.arman@gmail.com"],
-      ["Phone", "+1 (718) 690-4242", "tel:+17186904242"],
-      ["LinkedIn", "linkedin.com/in/architectarman", "https://www.linkedin.com/in/architectarman"],
-      ["Based in", "Queens, New York", null],
-      ["Résumé", "Download PDF", "/Arman-Hossain-Amir-Resume.pdf"]
+      [
+        "Email",
+        "zishan.arman@gmail.com",
+        "mailto:zishan.arman@gmail.com"
+      ],
+      [
+        "Phone",
+        "+1 (718) 690-4242",
+        "tel:+17186904242"
+      ],
+      [
+        "LinkedIn",
+        "linkedin.com/in/architectarman",
+        "https://www.linkedin.com/in/architectarman"
+      ],
+      [
+        "Based in",
+        "Queens, New York",
+        null
+      ],
+      [
+        "Résumé",
+        "Download PDF",
+        "/Arman-Hossain-Amir-Resume.pdf"
+      ]
     ],
     "colophon": "All projects shown are my own work, produced at Quantum Design & Safety LLC, ZED Architecture & Construction, Cornerstone Design Studio, Dreero.aec, or at North South University. Drawings and renders are reproduced with the permission of the offices concerned."
   }

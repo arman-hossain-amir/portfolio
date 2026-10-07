@@ -39,6 +39,9 @@ if (fs.existsSync(mfile)) {
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const catSlug = (c) => String(c || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const WORDS = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty'];
+const TENS = { 2: 'Twenty', 3: 'Thirty', 4: 'Forty' };
+const numWord = (n) => WORDS[n] || (TENS[Math.floor(n / 10)] ? TENS[Math.floor(n / 10)] + '-' + WORDS[n % 10].toLowerCase() : String(n));
+const HERO_PROJECT = 'frozen-ridge';   // project whose cover is the home hero (site.json "heroProject" overrides)
 const hash = (s) => crypto.createHash('sha1').update(s).digest('hex').slice(0, 8);
 
 // Read JPEG width/height from the SOF marker. Returns null if not a JPEG.
@@ -96,9 +99,11 @@ const SIZES = {
   full: '(min-width:1520px) 1376px, 94vw',
   g2: '(min-width:1520px) 683px, (min-width:620px) 46vw, 92vw',
   g3: '(min-width:1520px) 452px, (min-width:900px) 31vw, (min-width:620px) 46vw, 92vw',
+  cardWide: '(min-width:1520px) 683px, (min-width:640px) 46vw, 92vw',
   card: '(min-width:1520px) 448px, (min-width:1100px) 30vw, (min-width:640px) 46vw, 92vw',
   bleed: '(min-width:1920px) 1920px, 100vw',
   homehero: '(min-width:1520px) 1376px, 94vw',
+  portrait: '(min-width:901px) 280px, 220px',
 };
 
 const ar = (im) => +(im.w / im.h).toFixed(4);
@@ -139,7 +144,11 @@ function groups(list, slug, where) {
         const sizes = `(min-width:1520px) ${px}px, (min-width:621px) ${vw}vw, 92vw`;
         return fig(x.im, x.image, sizes, !!g.sheet);
       }).join('\n');
-      return `<div class="row${len === 1 ? ' solo' : ''}" style="--sum:${sum.toFixed(4)};--n:${len}">\n${figs}\n</div>`;
+      // never upscale: the row is no taller than its shortest image's natural height
+      const hmax = Math.min(...row.map((x) => x.im.h));
+      // a lone image that will not fill the measure (portrait, square-ish, low-res) sits on a charcoal mat
+      const mat = len === 1 && !g.sheet && (sum < 1.5 || row[0].im.w < 1600);
+      return `<div class="row${len === 1 ? ' solo' : ''}${mat ? ' matted' : ''}" style="--sum:${sum.toFixed(4)};--n:${len};--hmax:${hmax}px">\n${figs}\n</div>`;
     }).join('\n');
     return `<div class="grid ${layout}${g.sheet ? ' sheets' : ''}">\n${rows}\n</div>`;
   }).join('\n');
@@ -219,10 +228,14 @@ function home() {
   const hero = site.hero || {};
   const names = String(hero.name || NAME).split(/\s+/);
   const dims = (hero.dims || []).map(([k, v]) => {
-    if (/^projects$/i.test(k)) v = `${WORDS[projects.length] || projects.length} selected`;
+    if (/^projects$/i.test(k)) v = `${numWord(projects.length)} selected`;
     return `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`;
   }).join('');
-  const hi = site.heroImage ? img(site.heroImage.file, 'home', 'site.json heroImage') : null;
+  // Home hero: the cover of one project, shown full-viewport with the name over it.
+  // site.json "heroProject" wins; else HERO_PROJECT; else the plain site.json heroImage.
+  const hp = projects.find((p) => p.slug === (site.heroProject || HERO_PROJECT));
+  const heroSrc = hp ? { file: `${hp.slug}/${hp.cover}`, alt: hp.coverAlt || hp.heroCaption || hp.title } : site.heroImage;
+  const hi = heroSrc ? img(heroSrc.file, 'home', 'home hero image') : null;
 
   const cats = ['Architecture', 'Interiors', 'Masterplan', 'Academic'].filter((c) => projects.some((p) => p.category === c));
   const chips = `<div class="chips" role="group" aria-label="Filter projects by category" hidden>
@@ -230,10 +243,13 @@ function home() {
       <button type="button" data-cat="${catSlug(c)}" aria-pressed="false">${esc(c)} <span>${projects.filter((p) => p.category === c).length}</span></button>`).join('')}
     </div>`;
 
-  const cards = projects.map((p) => {
+  // On the 3-column grid the first few cards run two-up (wider) so the last row is always full.
+  let wideN = 0;
+  if (projects.length % 3) for (const k of [2, 4]) if ((projects.length - k) % 3 === 0) { wideN = k; break; }
+  const cards = projects.map((p, ci) => {
     const im = img(p.cover, p.slug, `${p.slug} cover`);
-    return `<li class="card" data-cat="${catSlug(p.category)}"><a href="/projects/${esc(p.slug)}">
-  <div class="card-img">${imgTag(im, '', SIZES.card)}</div>
+    return `<li class="card${ci < wideN ? ' wide' : ''}" data-cat="${catSlug(p.category)}"><a href="/projects/${esc(p.slug)}">
+  <div class="card-img">${imgTag(im, '', ci < wideN ? SIZES.cardWide : SIZES.card)}<span class="card-go" aria-hidden="true">View project →</span></div>
   <div class="card-meta"><span>P-${esc(p.no)}</span><span>${esc(p.category)}</span></div>
   <h3 class="card-ti">${esc(p.title)}</h3>
   <p class="card-pl">${esc([p.location, p.year].filter(Boolean).join(' · '))}</p>
@@ -242,6 +258,10 @@ function home() {
 
   const pr = site.practice || {};
   const cv = (pr.cv || []).map(([y, t, s]) => `<li><span class="yr">${esc(y)}</span><span><b>${esc(t)}</b>${s ? `<span>${esc(s)}</span>` : ''}</span></li>`).join('\n');
+  // Optional head-and-shoulders portrait, shown once, above the CV list.
+  const pt = pr.portrait && pr.portrait.file ? img(pr.portrait.file, 'home', 'site.json practice.portrait') : null;
+  const portrait = pt ? `
+      <figure class="portrait">${imgTag(pt, pr.portrait.alt || NAME, SIZES.portrait)}${pr.portrait.caption ? `<figcaption>${esc(pr.portrait.caption)}</figcaption>` : ''}</figure>` : '';
   const dr = site.drawing || {};
   const cl = lines.map(([k, t, h]) => `<li><span class="k">${esc(k)}</span><span>${link(t, h)}</span></li>`).join('\n');
 
@@ -251,13 +271,18 @@ function home() {
 <body class="home">
 ${bar(true)}
 <main id="main">
-<section class="hero wrap" id="top">
-  <div class="hero-text">
-    <h1 class="exp">${names.map((n) => `<span>${esc(n)}</span>`).join('')}</h1>
+<section class="hero${hi ? ' has-img' : ''}" id="top">
+  <div class="hero-media">
+    ${hi ? imgTag(hi, heroSrc.alt || '', '100vw', { eager: true, cls: 'hero-img' }) : ''}
+    <div class="hero-over wrap">
+      <h1 class="exp">${names.map((n) => `<span>${esc(n)}</span>`).join(' ')}</h1>
+      ${hp ? `<a class="hero-src" href="/projects/${esc(hp.slug)}"><span class="k">P-${esc(hp.no)}</span> ${esc(hp.title)} <span aria-hidden="true">→</span></a>` : ''}
+    </div>
+  </div>
+  <div class="hero-info wrap">
     ${hero.role ? `<p class="role">${esc(hero.role)}</p>` : ''}
     <dl class="dim">${dims}</dl>
   </div>
-  ${hi ? `<figure class="hero-fig">${imgTag(hi, site.heroImage.alt || '', SIZES.homehero, { eager: true })}</figure>` : ''}
 </section>
 
 <section class="work wrap" id="work" aria-labelledby="work-h">
@@ -276,11 +301,13 @@ ${cards}
   <div class="wrap">
     <h2 class="label" id="practice-h">${esc(pr.title || 'Practice')}</h2>
     ${pr.lead ? `<p class="lead exp">${esc(pr.lead)}</p>` : ''}
-    <div class="cols">
+    <div class="cols${portrait ? ' has-portrait' : ''}">
       <div class="prose">${(pr.paragraphs || []).map((t) => `<p>${esc(t)}</p>`).join('\n')}</div>
+      <div class="side">${portrait}
       <ul class="cv">
 ${cv}
       </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -315,16 +342,20 @@ function project(p, i) {
   const cover = img(p.cover, p.slug, `${where} cover`);
   const prev = projects[(i - 1 + projects.length) % projects.length];
   const next = projects[(i + 1) % projects.length];
-  // Full-bleed only for landscape covers with enough pixels; portrait or low-res covers are
+  // Full-bleed only for wide (3:2 or wider) covers with enough pixels; 4:3, portrait or low-res covers are
   // contained (centred on a charcoal band, never upscaled past their own width).
-  const contained = cover && (cover.h > cover.w * 0.8 || cover.w < 1600);
+  // A project with no image groups is a single object, usually shown on white (a product
+  // drawing): its cover sits on a white sheet inside the measure. Override with "heroSheet".
+  const sheetHero = !!cover && (p.heroSheet ?? !(p.groups || []).some((g) => (g.images || []).length));
+  const contained = cover && (sheetHero || cover.h > cover.w * 0.68 || cover.w < 1600);
   const coverAlt = p.coverAlt || p.heroAlt || p.heroCaption || p.title;
   const heroSizes = contained ? `(min-width:${cover.w}px) ${Math.round(cover.w)}px, 100vw` : SIZES.bleed;
   const heroStyle = contained ? ` style="--ar:${ar(cover)};--w:${cover.w}px"` : '';
-  const heroFig = cover ? `<figure class="fig bleed${contained ? ' contained' : ''}"${heroStyle}><div class="frame"><button type="button" class="zoom" data-full="${esc(cover.lg)}" aria-label="Enlarge: ${esc(coverAlt)}">${imgTag(cover, coverAlt, heroSizes, { eager: true })}</button></div>${p.heroCaption ? `<figcaption class="wrap">${esc(p.heroCaption)}</figcaption>` : ''}</figure>` : '';
+  const heroFig = cover ? `<figure class="fig bleed${contained ? ' contained' : ''}${sheetHero ? ' hero-sheet' : ''}"${heroStyle}><div class="frame"><button type="button" class="zoom" data-full="${esc(cover.lg)}" aria-label="Enlarge: ${esc(coverAlt)}">${imgTag(cover, coverAlt, heroSizes, { eager: true })}</button></div>${p.heroCaption ? `<figcaption class="wrap">${esc(p.heroCaption)}</figcaption>` : ''}</figure>` : '';
   const spec = (p.spec || []).slice(0, 4).map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
+  const gHTML = groups(p.groups, p.slug, where);
   const whereLine = p.where || [p.location, p.year].filter(Boolean).join(' · ');
-  const pn = (q, dir) => `<a class="pn pn-${dir}" href="/projects/${esc(q.slug)}" rel="${dir}"><span class="pn-k">${dir === 'prev' ? `← Previous · P-${esc(q.no)}` : `P-${esc(q.no)} · Next →`}</span><span class="pn-ti">${esc(q.title)}</span></a>`;
+  const pn = (q, dir) => `<a class="pn pn-${dir}" href="/projects/${esc(q.slug)}" rel="${dir}"><span class="pn-img">${imgTag(img(q.cover, q.slug, `${q.slug} cover`), '', '(min-width:701px) 320px, 45vw')}</span><span class="pn-k">${dir === 'prev' ? `← Previous · P-${esc(q.no)}` : `P-${esc(q.no)} · Next →`}</span><span class="pn-ti">${esc(q.title)}</span></a>`;
   return `${head({ title: `${p.title} — ${NAME}`, description: p.summary || '', image: cover && cover.lg, url: `/projects/${p.slug}` })}
 <body class="project">
 ${bar(false)}
@@ -339,12 +370,12 @@ ${bar(false)}
   <div class="wrap">
     <div class="intro">
       <div class="prose">${(p.body || []).map((t) => `<p>${esc(t)}</p>`).join('\n')}</div>
-      ${p.credit ? `<p class="credit">${esc(p.credit)}</p>` : ''}
+      <aside class="facts" aria-label="Project facts">
+        ${spec ? `<dl class="spec">${spec}</dl>` : ''}
+        ${p.credit ? `<p class="credit">${esc(p.credit)}</p>` : ''}
+      </aside>
     </div>
-    ${spec ? `<dl class="spec">${spec}</dl>` : ''}
-    <div class="groups">
-${groups(p.groups, p.slug, where)}
-    </div>
+    ${gHTML.trim() ? `<div class="groups">\n${gHTML}\n    </div>` : ''}
   </div>
 </article>
 <nav class="pnav wrap" aria-label="More projects">
