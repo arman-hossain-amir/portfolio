@@ -2,7 +2,7 @@
   "url": "https://arman-hossain-amir.vercel.app",
   "hero": {
     "name": "Arman Hossain Amir",
-    "role": "Architectural designer and project coordinator with six years of practice, designing housing and interiors in New York.",
+    "role": "Architectural designer and construction manager with six years of practice, taking projects from zoning analysis and DOB permitting to scheduling, site safety and delivery in New York.",
     "dims": [
       [
         "Based",
@@ -28,23 +28,23 @@
   },
   "practice": {
     "title": "Practice",
-    "lead": "From construction drawings to permit sets in New York.",
+    "lead": "Between design and delivery: drawings, permits, schedules and site safety.",
     "paragraphs": [
-      "I trained as an architect at North South University in Dhaka and spent six years in practice there, moving from producing construction documents to leading projects and running site supervision. Most of that work was residential, interior and hospitality — the kind of project where the drawings have to survive contact with a real contractor on a real site.",
-      "I moved to the United States to study project management at Northeastern University, learning the scheduling, budgeting and resource-planning side of the same work. At Quantum Design & Safety in New York I designed three accessory dwelling units for the city's pre-approved plan library, produced the full interior drawing set for a single-family house upstate, and coordinated site-specific safety plans and egress drawings for city construction projects — back in front of code, drawings and inspectors, this time under the New York City Department of Buildings rather than Rajuk.",
-      "Alongside the design work I ran the firm's site safety school, a DOB-approved SST course provider — scheduling classes, issuing worker and supervisor cards, and growing monthly revenue by about two thirds by filling the calendar and promoting the courses.",
-      "I work in AutoCAD, Revit, SketchUp and Rhino, render in Lumion, and schedule in Microsoft Project. I speak English and Bengali fluently and conversational Hindi."
+      "I trained as an architect and have six years of practice in the field, moving from producing construction documents to leading projects and running site supervision. Most of that work was residential, interior and hospitality: the kind of project where the drawings have to survive contact with a real contractor on a real site.",
+      "Wanting to oversee how designs physically get built, I moved to the United States to study project management, with a concentration in construction management, at Northeastern University, where my coursework has included a baseline planning model for a regional transit project and a community-focused capstone. At Quantum Design & Safety in New York I designed three accessory dwelling units for the city’s pre-approved plan library, produced the full interior drawing set for a single-family house upstate, ran zoning feasibility studies, worked through DOB permitting, drafted Stormwater Pollution Prevention Plans and built construction schedules in Primavera P6. I also coordinated site-specific safety plans and egress drawings for city construction projects, this time under the New York City Department of Buildings rather than RAJUK.",
+      "Alongside the design work I ran operations for the firm’s site safety school, 1A Accredited Bilingual Safety Training, a DOB-approved SST course provider: scheduling classes, issuing worker and supervisor cards, building interactive SCORM-compliant training modules in Articulate Storyline 360, and growing sales by 36%.",
+      "I draw in AutoCAD, Revit, SketchUp and Rhino, render in Enscape, Lumion and V-Ray, schedule in Primavera P6 and Microsoft Project, build training content in Articulate Storyline 360 and edit video in Wondershare Filmora. I also work with AI tools including Claude, Gemini and GPT models, and I pick up new software quickly. I speak English and Bengali fluently and conversational Hindi."
     ],
     "cv": [
       [
         "2026",
         "M.S. Project Management",
-        "Northeastern University, Boston — December 2026"
+        "Construction Management concentration, Northeastern University, Boston, December 2026"
       ],
       [
         "2026",
         "SST Supervisor Card",
-        "NYC Department of Buildings — Site Safety Training, valid to 2031"
+        "NYC Department of Buildings, Site Safety Training, valid to 2031"
       ],
       [
         "2026",
@@ -84,12 +84,12 @@
         "images": [
           {
             "file": "burj-drawing-2.jpg",
-            "caption": "Burj Khalifa — graphite study",
+            "caption": "Burj Khalifa, graphite study",
             "alt": "Pencil drawing of the Burj Khalifa rising out of low cloud."
           },
           {
             "file": "sketch-2.jpg",
-            "caption": "Perspective sketch — stacked housing",
+            "caption": "Perspective sketch, stacked housing",
             "alt": "Pencil perspective sketch of a stacked modular apartment building."
           }
         ]
@@ -111,7 +111,7 @@
         "images": [
           {
             "file": "photo-jamamasjid-2.jpg",
-            "caption": "Jama Masjid, New Delhi — 2017",
+            "caption": "Jama Masjid, New Delhi, 2017",
             "alt": "Panorama of the red sandstone gateway and minarets of the Jama Masjid, New Delhi."
           }
         ]
@@ -122,17 +122,17 @@
         "images": [
           {
             "file": "photo-adalaj.jpg",
-            "caption": "Adalaj Stepwell, Gujarat — 2017",
+            "caption": "Adalaj Stepwell, Gujarat, 2017",
             "alt": "Looking up through the carved stone galleries of the Adalaj stepwell toward the light well."
           },
           {
             "file": "photo-tajmahal-2.jpg",
-            "caption": "Taj Mahal, Agra — 2017",
+            "caption": "Taj Mahal, Agra, 2017",
             "alt": "The Taj Mahal at the end of its water channel, framed by cypress trees."
           },
           {
             "file": "photo-burjkhalifa-3.jpg",
-            "caption": "Burj Khalifa, Dubai — 2023",
+            "caption": "Burj Khalifa, Dubai, 2023",
             "alt": "The Burj Khalifa lit at night, seen from below with the towers of Downtown Dubai around it."
           }
         ]
@@ -143,12 +143,12 @@
         "images": [
           {
             "file": "photo-dubaimarina.jpg",
-            "caption": "Dubai Marina — 2023",
+            "caption": "Dubai Marina, 2023",
             "alt": "Dubai Marina at night, a lit bridge and towers reflected in the water."
           },
           {
             "file": "photo-chameleon.jpg",
-            "caption": "Chameleon, Dubai — 2023",
+            "caption": "Chameleon, Dubai, 2023",
             "alt": "A turquoise chameleon on a branch among green leaves and magenta orchids."
           }
         ]
@@ -159,12 +159,12 @@
         "images": [
           {
             "file": "photo-sonamarg.jpg",
-            "caption": "Sonamarg, Kashmir — 2022",
+            "caption": "Sonamarg, Kashmir, 2022",
             "alt": "Snow-covered valley and mountains at Sonamarg, Kashmir."
           },
           {
             "file": "photo-rangamati-2.jpg",
-            "caption": "Rangamati, Bangladesh — 2020",
+            "caption": "Rangamati, Bangladesh, 2020",
             "alt": "Sunset over the lake at Rangamati, Bangladesh, with boats moored in silhouette."
           }
         ]
@@ -175,12 +175,12 @@
         "images": [
           {
             "file": "photo-kashmir.jpg",
-            "caption": "Apple orchard, Kashmir — 2022",
+            "caption": "Apple orchard, Kashmir, 2022",
             "alt": "A small child in a knitted hood holding up two apples in an orchard in Kashmir."
           },
           {
             "file": "photo-pittsburgh.jpg",
-            "caption": "Pittsburgh, Pennsylvania — 2025",
+            "caption": "Pittsburgh, Pennsylvania, 2025",
             "alt": "A brick house with a bay window and porch steps in Pittsburgh."
           }
         ]
@@ -222,5 +222,6 @@
       "alt": "Portrait of Arman Hossain Amir"
     }
   },
-  "heroProject": "novo-theatre"
+  "heroProject": "novo-theatre",
+  "description": "Architecture, interiors and construction management by Arman Hossain Amir: ADU designs for New York City, residential interiors, and buildings and masterplans from six years of practice."
 }

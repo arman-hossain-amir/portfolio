@@ -266,7 +266,7 @@ function home() {
   const dr = site.drawing || {};
   const cl = lines.map(([k, t, h]) => `<li><span class="k">${esc(k)}</span><span>${link(t, h)}</span></li>`).join('\n');
 
-  const title = site.title || `${NAME} — Architectural Designer, New York`;
+  const title = site.title || `${NAME} · Architectural Designer, New York`;
   const description = site.description || hero.role || '';
   return `${head({ title, description, image: hi && hi.lg, url: '/' })}
 <body class="home">
@@ -359,7 +359,7 @@ function project(p, i) {
   const gHTML = groups(p.groups, p.slug, where);
   const whereLine = p.where || [p.location, p.year].filter(Boolean).join(' · ');
   const pn = (q, dir) => `<a class="pn pn-${dir}" href="/projects/${esc(q.slug)}" rel="${dir}"><span class="pn-img">${imgTag(img(q.cover, q.slug, `${q.slug} cover`), '', '(min-width:701px) 320px, 45vw')}</span><span class="pn-k">${dir === 'prev' ? `← Previous · P-${esc(q.no)}` : `P-${esc(q.no)} · Next →`}</span><span class="pn-ti">${esc(q.title)}</span></a>`;
-  return `${head({ title: `${p.title} — ${NAME}`, description: p.summary || '', image: cover && cover.lg, url: `/projects/${p.slug}` })}
+  return `${head({ title: `${p.title} · ${NAME}`, description: p.summary || '', image: cover && cover.lg, url: `/projects/${p.slug}` })}
 <body class="project">
 ${bar(false)}
 <main id="main">

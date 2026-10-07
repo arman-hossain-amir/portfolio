@@ -511,21 +511,9 @@
     "w": 2000,
     "h": 1125
   },
-  "novo-theatre/novo-board-elevations.jpg": {
-    "w": 2041,
-    "h": 2790
-  },
   "novo-theatre/novo-board-masterplan.jpg": {
     "w": 2041,
     "h": 1414
-  },
-  "novo-theatre/novo-board-model.jpg": {
-    "w": 2405,
-    "h": 3400
-  },
-  "novo-theatre/novo-board-renders.jpg": {
-    "w": 2405,
-    "h": 3400
   },
   "novo-theatre/novo-render-1.jpg": {
     "w": 960,
@@ -774,5 +762,21 @@
   "green-farm-resort/post-014-06.jpg": {
     "w": 2000,
     "h": 1318
+  },
+  "novo-theatre/novo-renders-sheet.jpg": {
+    "w": 1652,
+    "h": 2400
+  },
+  "novo-theatre/novo-model-sheet.jpg": {
+    "w": 1899,
+    "h": 2400
+  },
+  "novo-theatre/novo-elevations-sheet.jpg": {
+    "w": 2041,
+    "h": 1086
+  },
+  "novo-theatre/novo-sections-sheet.jpg": {
+    "w": 2041,
+    "h": 844
   }
 }
